@@ -21,12 +21,12 @@ Böngéssze, használja mindenki a saját kedve szerint a modot.
 EN:
 
 
-In recent times, the **OriginalRoleplay MTA** mod has started spreading in various places. Many people believe that the mod is their own property, so we have decided that since the **original team has ceased their MTA activities**, we will make the **official mod** available to everyone.
+In recent times, the **OriginalRoleplay MTA** gamemode has started spreading in various places. Many people believe that the gamemode is their own property, so we have decided that since the **original team has ceased their MTA activities**, we will make the **official gamemode** available to everyone.
 
-The final, public version of the mod was developed by the original developers between **2019 and 2023**. (Original developers: myself, **Carlos; Paul; Dexter; Jack**; and a few other developers whose names you can find among the files...)
+The final, public version of the gamemode was developed by the original developers between **2019 and 2023**. (Original developers: myself, **Carlos; Paul; Dexter; Jack**; and a few other developers whose names you can find among the files...)
 
 > [!IMPORTANT]
-> **The official OriginalRoleplay team-created Multi Theft Auto server has NOT BEEN AVAILABLE since February 2023. Any server running under the OriginalRoleplay name on the MTA client are copies or unofficial servers. If you want to support the OriginalRoleplay server and follow the future of the team and the community, you can do so on the following Discord server:
+> **The official OriginalRoleplay team-created Multi Theft Auto server has NOT BEEN AVAILABLE since February 2023. Any server running under the OriginalRoleplay name on the MTA client are copies or unofficial servers. If you want to support the official OriginalRoleplay server and follow the future of the team and the community, you can do so on the following Discord server:
 > https://discord.gg/original-roleplay-gta-rp-652897662307270667**
 >
 > All other Discord servers are scams, trying to deceive you and take your money by exploiting the reputation of OriginalRoleplay. We urge you not to fall for these various scams and deceptions!
@@ -34,4 +34,4 @@ The final, public version of the mod was developed by the original developers be
 Feel free to browse and use the mod as you like.
 
 > [!CAUTION]
-> **Don't fall for scams, don't pay for the mod, as this is the original mod, which is now publicly and freely available to everyone!**
+> **Don't fall for scams, don't pay for the gamemode, as this is the original gamemode, which is now publicly and freely available to everyone!**
