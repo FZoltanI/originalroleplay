@@ -8,6 +8,7 @@ Az elmúlt időszakban különböző helyeken elkezdett terjedni az **OriginalRo
 > [!IMPORTANT]
 > **A hivatalos OriginalRoleplay csapat által készített Multi Theft Auto szerver már 2023 februárja óta NEM ÉRHETŐ EL. Minden szerver ami OriginalRoleplay néven fut az MTA kliensben azok másolatok vagy nem hivatalos szerverek. Ha az OriginalRoleplay szerverét szeretnétek támogatni és nyomon követni a csapat és a közösség jövőjét, akkor azt al alábbi Discord szerveren tehetitek meg:
 > https://discord.gg/original-roleplay-gta-rp-652897662307270667**
+> Minden más discord szerver csalás, és csak az OriginalRoleplay hírnevét kihasználva szeretnének benneteket átverni és elvenni a pénzeteket. Kérünk benneteket, hogy ne dőljetek be a különböző csalásoknak és átveréseknek!
 
 Böngéssze, használja mindenki a saját kedve szerint a modot. 
 
@@ -26,6 +27,7 @@ The final, public version of the mod was developed by the original developers be
 > [!IMPORTANT]
 > **The official OriginalRoleplay team-created Multi Theft Auto server has NOT BEEN AVAILABLE since February 2023. Any server running under the OriginalRoleplay name on the MTA client are copies or unofficial servers. If you want to support the OriginalRoleplay server and follow the future of the team and the community, you can do so on the following Discord server:
 > https://discord.gg/original-roleplay-gta-rp-652897662307270667**
+> All other Discord servers are scams, trying to deceive you and take your money by exploiting the reputation of OriginalRoleplay. We urge you not to fall for these various scams and deceptions!
 
 Feel free to browse and use the mod as you like.
 
