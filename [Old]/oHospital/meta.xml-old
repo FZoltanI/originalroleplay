@@ -1,0 +1,8 @@
+<meta>
+    <oop>true</oop>
+    <script src="client.lua" type="client" cache="true"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="hosp.dff"></file>
+    <file src="hosp.col"></file>
+    <file src="hosp.txd"></file>
+</meta>

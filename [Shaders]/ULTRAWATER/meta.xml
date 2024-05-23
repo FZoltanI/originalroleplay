@@ -1,0 +1,11 @@
+<meta>
+	<info name="water refract" version="1.0.8" type="script" />
+	<min_mta_version client="1.4.1" server="1.4.1" />
+	<script src="c_main.luac" type="client" />
+	<script src="c_switch.lua" type="client" />
+	<file src="fx/img_refract.fx" type="client" />
+	<file src="fx/tex_water.fx" type="client" />
+	<file src="images/wavemap.png" type="client" />
+	<file src="images/cube_env256.dds" type="client" />
+	<file src="images/enb-water.dds" type="client" />
+</meta>

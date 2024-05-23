@@ -1,0 +1,9 @@
+<meta>
+    
+    <script src="script.lua" type="client" cache="false" />
+    
+    <file src="p1.dff" />
+    <file src="p1.col" />
+    <file src="p1.txd" />
+    
+</meta>

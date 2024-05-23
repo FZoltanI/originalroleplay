@@ -1,0 +1,5 @@
+addEvent("trainrob > startTrainDrive", true)
+addEventHandler("trainrob > startTrainDrive", resourceRoot, function(ped)   
+    outputChatBox("asd")
+    setPedControlState(ped, "accelerate", true)
+end)

@@ -1,0 +1,5 @@
+<meta>
+    <info name="Dynamic Lighting - Projectiles" author="Ren712" version="1.0.5" type="script" />
+    <script src="c_projectileLight.lua" type="client" cache="false" />
+    <include resource="dynamic_lighting" />
+</meta>

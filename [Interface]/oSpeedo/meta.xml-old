@@ -1,0 +1,51 @@
+<meta>
+    <oop>true</oop>
+    <script src="global.lua" type="shared" cache="false"></script>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="server.lua" type="server" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="speedov2.html"></file>
+    <file src="speedov2_fuel.html"></file>
+    <file src="speedov2.css"></file>
+    <file src="files/icons/fuel.png"></file>
+    <file src="files/icons/lamp.png"></file>
+    <file src="files/icons/left.png"></file>
+    <file src="files/icons/tempomat.png"></file>
+    <file src="files/icons/right.png"></file>
+    <file src="files/icons/oil.png"></file>
+    <file src="files/icons/seatbelt.png"></file>
+    <file src="files/icons/electric_fuel.png"></file>
+    <file src="files/icons/handbrake.png"></file>
+    <file src="files/fonts/300.ttf"></file>
+    <file src="files/fonts/700i.ttf"></file>
+    <file src="files/fonts/900.ttf"></file>
+    <file src="files/fonts/900i.ttf"></file>
+    <file src="black.otf"></file>
+    <file src="ultralight.otf"></file>
+    <file src="bold.otf"></file>
+    <file src="bg.png"></file>
+    <file src="files/bg_energy.png"></file>
+    <file src="speedo.html"></file>
+    <file src="jquery.min.js"></file>
+    <file src="jquery-circle-progress-1.2.2/dist/circle-progress.js"></file>
+    <file src="files/pointer.png"></file>
+    <file src="files/speed_line.png"></file>
+    <file src="files/speedo_pointers.png"></file>
+    <file src="files/fuel_pointers.png"></file>
+    <file src="files/handbrake_off.png"></file>
+    <file src="files/handbrake_on.png"></file>
+    <file src="files/seatbelt_off.png"></file>
+    <file src="files/seatbelt_on.png"></file>
+    <file src="files/battery_0.png"></file>
+    <file src="files/engine_0.png"></file>
+    <file src="files/oil.png"></file>
+    <file src="files/index_l_off.png"></file>
+    <file src="files/index_l_on.png"></file>
+    <file src="files/index_r_on.png"></file>
+    <file src="files/index_r_off.png"></file>
+    <file src="files/light_off.png"></file>
+    <file src="files/light_on.png"></file>
+    <file src="files/belt_beep.mp3"></file>
+    <file src="files/heavy.ttf"></file>
+    <file src="files/thin.ttf"></file>
+</meta>

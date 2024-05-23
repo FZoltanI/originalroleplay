@@ -1,0 +1,17 @@
+<meta>
+    <script src = "loader.lua" type = "client" cache = "false" />
+
+    <!-- Ide írd be sorba a fájlokat, txd, dff-->
+    <file src = "skins/213.txd" />
+    <file src = "skins/213.dff" />
+    <file src = "skins/235.txd" />
+    <file src = "skins/235.dff" />
+    <file src = "skins/249.txd" />
+    <file src = "skins/249.dff" />
+    <file src = "skins/264.txd" />
+    <file src = "skins/264.dff" />
+    <file src = "skins/278.txd" />
+    <file src = "skins/278.dff" />
+    <file src = "skins/279.txd" />
+    <file src = "skins/279.dff" />
+</meta>

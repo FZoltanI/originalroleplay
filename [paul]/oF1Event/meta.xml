@@ -1,0 +1,31 @@
+<meta>
+    <oop>true</oop>
+    <min_mta_version client="1.5.9" server="1.5.9" />
+
+    <script src="global.lua" type="shared" cache="false"></script>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="renderC.lua" type="client" cache="false"></script>
+    <script src="carsound.lua" type="client" cache="false" />   
+    <script src="server.lua" type="server" cache="false"></script>
+
+    <file src="sounds/engine.wav" />
+
+    <file src="cars/hotring.txd"></file>
+    <file src="cars/hotring.dff"></file>
+    <file src="cars/hotrina.txd"></file>
+    <file src="cars/hotrina.dff"></file>
+    <file src="cars/hotrinb.txd"></file>
+    <file src="cars/hotrinb.dff"></file>
+
+    <file src="files/countdown.mp3"></file>
+    <file src="files/display.ttf"></file>
+
+    <file src="files/board.png"></file>
+    <file src="files/topracers.png"></file>
+    <file src="files/topline.png"></file>
+
+    <file src="files/listing.png"></file>
+    <file src="files/effect.png"></file>
+
+</meta>
+ 

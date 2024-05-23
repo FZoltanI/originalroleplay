@@ -1,0 +1,22 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (sw_trailer02) (1)" radius="35.635082" interior="0" model="12932" lodModel="0" posX="-117.96094" posY="-337.45312" posZ="3.61719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (meshfence1_LAn) (1)" breakable="true" interior="0" alpha="255" model="4100" doublesided="false" scale="1" dimension="0" posX="-2" posY="-268.70001" posZ="6.1" rotX="0" rotY="0" rotZ="320"></object>
+    <object id="object (BUST_CABINET_4) (1)" breakable="true" interior="0" alpha="255" model="910" doublesided="false" scale="1" dimension="0" posX="-2.6" posY="-269.39999" posZ="5.7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BinNt10_LA) (1)" breakable="true" interior="0" alpha="255" model="1328" doublesided="false" scale="1" dimension="0" posX="-1.1" posY="-269.20001" posZ="4.9" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BinNt08_LA) (1)" breakable="true" interior="0" alpha="255" model="1338" doublesided="true" scale="1" dimension="0" posX="-4.6" posY="-269.70001" posZ="5.2" rotX="0" rotY="0" rotZ="318"></object>
+    <object id="object (BinNt03_LA) (1)" breakable="true" interior="0" alpha="255" model="1333" doublesided="false" scale="1" dimension="0" posX="-6.5" posY="-269.5" posZ="5.3" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (BinNt08_LA) (2)" breakable="true" interior="0" alpha="255" model="1338" doublesided="true" scale="1" dimension="0" posX="3.2" posY="-269.79999" posZ="5.2" rotX="0" rotY="0" rotZ="211.999"></object>
+    <object id="object (BillBd2) (1)" breakable="true" interior="0" alpha="255" model="1267" doublesided="false" scale="1" dimension="0" posX="-40.3" posY="-327.79999" posZ="16.5" rotX="0" rotY="0" rotZ="168"></object>
+    <object id="object (vgsbboardsigns16) (1)" breakable="true" interior="0" alpha="255" model="8329" doublesided="false" scale="1" dimension="0" posX="-40.2" posY="-327" posZ="21.5" rotX="0" rotY="0" rotZ="31.75"></object>
+    <object id="object (CJ_Drum) (1)" breakable="true" interior="0" alpha="255" model="935" doublesided="false" scale="1" dimension="0" posX="-8.5" posY="-267.89999" posZ="5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_Drum) (2)" breakable="true" interior="0" alpha="255" model="935" doublesided="false" scale="1" dimension="0" posX="-7.6" posY="-267.89999" posZ="5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (CJ_Drum) (3)" breakable="true" interior="0" alpha="255" model="935" doublesided="false" scale="1" dimension="0" posX="-7.6" posY="-267.89999" posZ="6.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (sw_trailer03) (2)" breakable="true" interior="0" alpha="255" model="12934" doublesided="false" scale="1" dimension="0" posX="-114.7" posY="-380.70001" posZ="3.8" rotX="0" rotY="0" rotZ="312"></object>
+    <object id="object (lasntrk1) (1)" breakable="true" interior="0" alpha="255" model="3566" doublesided="false" scale="1" dimension="0" posX="-6.2" posY="-372.29999" posZ="7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasntrk1) (2)" breakable="true" interior="0" alpha="255" model="3566" doublesided="false" scale="1" dimension="0" posX="-12.9" posY="-372.39999" posZ="7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasntrk1) (3)" breakable="true" interior="0" alpha="255" model="3566" doublesided="false" scale="1" dimension="0" posX="-29.7" posY="-372.5" posZ="7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasntrk3) (1)" breakable="true" interior="0" alpha="255" model="3569" doublesided="false" scale="1" dimension="0" posX="-19.7" posY="-372.70001" posZ="7" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt4) (1)" breakable="true" interior="0" alpha="255" model="3572" doublesided="false" scale="1" dimension="0" posX="-42.7" posY="-323.29999" posZ="5.8" rotX="0" rotY="0" rotZ="30"></object>
+    <object id="object (lasdkrt3) (1)" breakable="true" interior="0" alpha="255" model="3571" doublesided="false" scale="1" dimension="0" posX="-46.5" posY="-329.89999" posZ="5.8" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (lasdkrt2) (1)" breakable="true" interior="0" alpha="255" model="3570" doublesided="false" scale="1" dimension="0" posX="-49.9" posY="-323.79999" posZ="5.8" rotX="0" rotY="0" rotZ="230"></object>
+</map>

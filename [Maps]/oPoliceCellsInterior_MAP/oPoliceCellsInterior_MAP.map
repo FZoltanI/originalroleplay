@@ -1,0 +1,12 @@
+<map edf:definitions="editor_main">
+    <object id="object (lawnhouseredA) (1)" breakable="true" interior="3" alpha="255" dimension="0" model="3676" scale="1" doublesided="false" collisions="true" posX="209.94" posY="170.3" posZ="1007.6" rotX="0" rotY="270" rotZ="0"></object>
+    <object id="object (ADAM_V_DOOR) (1)" breakable="true" interior="3" alpha="255" dimension="0" model="1569" scale="1" doublesided="false" collisions="true" posX="204.39999" posY="161.60001" posZ="1002" rotX="0" rotY="0" rotZ="90"></object>
+    <object id="object (CJ_POLICE_COUNTER) (1)" breakable="true" interior="3" alpha="255" dimension="0" model="2604" scale="1" doublesided="false" collisions="true" posX="201.7" posY="158.10001" posZ="1002.8" rotX="0" rotY="0" rotZ="2"></object>
+    <object id="object (meshfence1_LAn) (3)" breakable="true" interior="3" alpha="255" dimension="0" model="4100" scale="1" doublesided="false" collisions="true" posX="199.89999" posY="152.10001" posZ="1003.7" rotX="0" rotY="0" rotZ="52"></object>
+    <object id="object (meshfence1_LAn) (4)" breakable="true" interior="3" alpha="255" dimension="0" model="4100" scale="1" doublesided="false" collisions="true" posX="199.89999" posY="152.10001" posZ="1006.5" rotX="0" rotY="0" rotZ="51.998"></object>
+    <object id="object (meshfence1_LAn) (5)" breakable="true" interior="3" alpha="255" dimension="0" model="4100" scale="1" doublesided="false" collisions="true" posX="206.89999" posY="158.5" posZ="1006.5" rotX="0" rotY="0" rotZ="318.998"></object>
+    <object id="object (POLICE_NB1) (1)" breakable="true" interior="3" alpha="255" dimension="0" model="2611" scale="1" doublesided="false" collisions="true" posX="200.89999" posY="156.3" posZ="1003.8" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (POLICE_NB2) (1)" breakable="true" interior="3" alpha="255" dimension="0" model="2612" scale="1" doublesided="false" collisions="true" posX="202.60001" posY="156.3" posZ="1003.8" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (police_OFF_CHAIR) (1)" breakable="true" interior="3" alpha="255" dimension="0" model="2356" scale="1" doublesided="false" collisions="true" posX="200.3" posY="156.60001" posZ="1002" rotX="0" rotY="0" rotZ="320.5"></object>
+    <object id="object (meshfence1_LAn) (6)" breakable="true" interior="3" alpha="255" dimension="0" model="4100" scale="1" doublesided="false" collisions="true" posX="207.5" posY="164" posZ="1006.5" rotX="0" rotY="0" rotZ="318.994"></object>
+</map>

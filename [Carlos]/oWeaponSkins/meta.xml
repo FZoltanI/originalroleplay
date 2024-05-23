@@ -1,0 +1,53 @@
+<meta>
+    <oop>true</oop>
+    <script src="client.lua" type="client" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="texturechanger.fx"></file>
+    <file src="ak/1.png"></file>
+    <file src="ak/2.png"></file>
+    <file src="ak/3.png"></file>
+    <file src="ak/4.png"></file>
+    <file src="ak/5.png"></file>
+    <file src="ak/6.png"></file>
+    <file src="ak/7.png"></file>
+    <file src="deagle/1.png"></file>
+    <file src="deagle/2.png"></file>
+    <file src="deagle/3.png"></file>
+    <file src="knife/1.png"></file>
+    <file src="knife/2.png"></file>
+    <file src="knife/3.png"></file>
+    <file src="knife/4.png"></file>
+    <file src="knife/5.png"></file>
+    <file src="knife/6.png"></file>
+    <file src="p90/1.png"></file>
+    <file src="p90/2.png"></file>
+    <file src="p90/3.png"></file>
+    <file src="p90/4.png"></file>
+    <file src="p90/5.png"></file>
+    <file src="p90/6.png"></file>
+    <file src="p90/7.png"></file>
+    <file src="p90/8.png"></file>
+    <file src="p90/9.png"></file>
+    <file src="shotgun/1.png"></file>
+    <file src="shotgun/2.png"></file>
+    <file src="shotgun/3.png"></file>
+    <file src="shotgun/4.png"></file>
+    <file src="sniper/1.png"></file>
+    <file src="sniper/2.png"></file>
+    <file src="tec/1.png"></file>
+    <file src="tec/2.png"></file>
+    <file src="tec/3.png"></file>
+    <file src="tec/4.png"></file>
+    <file src="uzi/1.png"></file>
+    <file src="uzi/2.png"></file>
+    <file src="uzi/3.png"></file>
+    <file src="uzi/4.png"></file>
+    <file src="m4/1.png"></file>
+    <file src="m4/2.png"></file>
+    <file src="m4/3.png"></file>
+    <file src="m4/4.png"></file>
+    <file src="m4/5.png"></file>
+    <file src="m4/6.png"></file>
+    <file src="m4/7.png"></file>
+    <file src="m4/8.png"></file>
+</meta>

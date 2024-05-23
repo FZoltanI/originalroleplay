@@ -1,0 +1,9 @@
+<meta>
+    
+    <script src="client.lua" type="client" cache="false" />
+    
+    <file src="sapd.dff" />
+    <file src="sapd.col" />
+    <file src="sapd.txd" />
+    
+</meta>

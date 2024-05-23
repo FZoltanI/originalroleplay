@@ -1,0 +1,7 @@
+<meta>
+    <file src="CEhillhouse01.txd" />
+    <file src="CEhillhouse01.dff" />
+    <file src="CEhillhouse01.col" />
+    
+    <script src="client.lua" type="client" cache="false" />
+</meta>

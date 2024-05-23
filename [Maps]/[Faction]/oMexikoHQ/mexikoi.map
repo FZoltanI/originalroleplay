@@ -1,0 +1,12 @@
+<map edf:definitions="editor_main">
+    <object id="object (d9_ramp) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3069" scale="1" doublesided="false" collisions="true" posX="297.39999" posY="-1521.9" posZ="22.7" rotX="0" rotY="0" rotZ="55.75"></object>
+    <object id="object (cjgaragedoor) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="17951" scale="1" doublesided="false" collisions="true" posX="283.10001" posY="-1511.2" posZ="25.7" rotX="0" rotY="0" rotZ="324.75"></object>
+    <object id="object (Gen_doorEXT03) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="1498" scale="1" doublesided="false" collisions="true" posX="285.89999" posY="-1507" posZ="23.9" rotX="0" rotY="0" rotZ="54"></object>
+    <object id="object (ADAM_V_DOOR) (3)" breakable="true" interior="0" alpha="255" dimension="0" model="1569" scale="1" doublesided="false" collisions="true" posX="349.70001" posY="-1472.4" posZ="35" rotX="0" rotY="0" rotZ="302"></object>
+    <object id="object (DYN_BAR_B_Q) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="1481" scale="1" doublesided="false" collisions="true" posX="352.60001" posY="-1474" posZ="35.7" rotX="0" rotY="0" rotZ="144"></object>
+    <object id="object (DYN_TABLE_2) (1)" breakable="false" interior="0" alpha="255" dimension="0" model="1432" scale="1" doublesided="false" collisions="true" frozen="false" posX="356.20001" posY="-1474.8" posZ="35.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (2)" breakable="false" interior="0" alpha="255" dimension="0" model="1432" scale="1" doublesided="false" collisions="true" frozen="false" posX="359.70001" posY="-1478.4" posZ="35.1" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (DYN_TABLE_2) (3)" breakable="false" interior="0" alpha="255" dimension="0" model="1432" scale="1" doublesided="false" collisions="true" frozen="false" posX="360.39999" posY="-1472.1" posZ="35.1" rotX="0" rotY="0" rotZ="290"></object>
+    <object id="object (DYN_TABLE_2) (5)" breakable="false" interior="0" alpha="255" dimension="0" model="1432" scale="1" doublesided="false" collisions="true" frozen="false" posX="351.20001" posY="-1468.7" posZ="35.1" rotX="0" rotY="0" rotZ="289.995"></object>
+    <object id="object (DYN_TABLE_2) (6)" breakable="false" interior="0" alpha="255" dimension="0" model="1432" scale="1" doublesided="false" collisions="true" frozen="false" posX="356.5" posY="-1467.9" posZ="35.1" rotX="0" rotY="0" rotZ="289.995"></object>
+</map>

@@ -1,0 +1,6 @@
+local txd = engineLoadTXD("p1.txd")
+            engineImportTXD(txd, 5418)
+local dff = engineLoadDFF("p1.dff", 5418)
+            engineReplaceModel(dff, 5418, true)
+local col = engineLoadCOL ("p1.col" )
+            engineReplaceCOL ( col, 5418)

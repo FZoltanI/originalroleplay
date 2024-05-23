@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORP - Speedo</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap" rel="stylesheet"> 
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&display=swap');
+        html {
+            overflow-y: hidden;
+            -moz-user-select: none; 
+            -webkit-user-select: none; 
+            -ms-user-select:none; user-select:none;
+            -o-user-select:none;
+        }
+
+
+        @font-face {
+            font-family: "bold";
+            src: url("files/heavy.ttf");
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: "black";
+            src: url("black.otf");
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: "heavy";
+            src: url("black.otf");
+            font-weight: bold;
+        }
+
+        
+        @font-face {
+            font-family: "light";
+            src: url("files/thin.ttf");
+        }
+
+        .speedo{
+            display: none;
+            background-size: cover;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("bg.png");
+            background-repeat: no-repeat;
+        }
+
+        .gear-circle {
+            /*background-color: red;*/
+            left: -18px;
+            width: 278.4px;
+            height: 242.4px;
+            display: inline-block;
+            position: relative;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .fuel-circle {
+            /*background-color: red;*/
+            top: 149px;
+            left: 205px;
+            width: 80px;
+            height: 90px;
+            display: inline-block;
+            position: absolute;
+            text-align: center;
+            line-height: 1.2;
+        }
+
+        .speed-num{
+            /*background-color: red;*/
+            left: 5px;
+            top: 75px;
+            width: 245px;
+            height: 50px;
+            display: inline-block;
+            position: absolute;
+            text-align: center;
+
+            font-family: "bold";
+            font-weight: 900;
+            font-size: 55px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .gear{
+            left: 109px;
+            top: 201px;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            position: absolute;
+            text-align: center;
+
+            font-family:'bold';
+            font-size: 32px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .speedtext{
+            left: 109px;
+            top: 130px;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            position: absolute;
+            text-align: center;
+
+            font-family:'light';
+            font-size: 20px;
+            font-weight: bold;
+            color: white;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .seatbelt{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 20px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/seatbelt_on.png");
+        }
+
+        .seatbelt-off{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 20px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/seatbelt_off.png");
+        }
+
+        @keyframes fade {
+            from { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            to { opacity: 1.0; }
+        }                                                                                                                                                                                                                                  
+
+        @-webkit-keyframes fade {
+            from { opacity: 1.0; }
+            50% { opacity: 0.0; }
+            to { opacity: 1.0; }
+        }
+
+        .blink {
+            animation:fade 1000ms infinite;
+            -webkit-animation:fade 1000ms infinite;
+        }
+
+        .fordulatszam{
+            left: 109px;
+            top: 160px;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            position: absolute;
+            text-align: center;
+
+            font-family:'bold';
+            font-size: 15px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        
+        .fordulatszamtext{
+            left: 109px;
+            top: 175px;
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            position: absolute;
+            text-align: center;
+
+            font-family:'bold';
+            font-size: 10px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .pointers{
+            display: inline-block;
+            position: absolute;
+            top: 28px;
+            left: 10px;
+            width: 100%;
+            height: 242.4px;
+            background-image: url("files/speedo_pointers.png");
+            background-repeat: no-repeat;
+        }
+
+        .battery{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 10px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/battery_0.png");
+        }
+
+        .engine{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 10px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/engine_0.png");
+        }
+
+        .oil{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 10px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/oil_0.png");
+        }
+
+        .megtettkm{
+            left: 80px;
+            top: 68px;
+            width: 100px;
+            height: 40px;
+            display: inline-block;
+            position: absolute;
+            text-align: center;
+
+            font-family:'bold';
+            font-size: 12px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .indexL{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 20px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/index_l_off.png");
+        }
+
+        .indexR{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 20px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/index_r_off.png");
+        }
+
+        .indexLOn{
+            display: none;
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 20px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/index_l_on.png");
+        }
+
+        .indexROn{
+            display: none;
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 20px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/index_r_on.png");
+        }
+
+        .handbrakeOFF{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 10px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/handbrake_off.png");
+        }
+
+        .handbrakeON{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 10px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/handbrake_on.png");
+        }
+
+        .lightOFF{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 10px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/light_off.png");
+        }
+
+        .lightON{
+            margin: 0px;
+            position: absolute;
+            background-size: cover;
+            top: 10px;
+            width: 278.4px;
+            height: 242.4px;
+            background-image: url("files/light_on.png");
+        }
+
+    </style>
+
+    <script src="jquery.min.js"></script>
+    <script src="jquery-circle-progress-1.2.2/dist/circle-progress.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+    <div class = "speedo" id = "speedo">
+        <div class="gear-circle" data-value="0" data-size="242" data-thickness="6" data-reverse="false"></div>
+
+        <div class = "speed-num"><p id = "speed" style="margin: 0px; position: relative;">0</p></div>
+        <div class = "speedtext"><p style="margin: 0px; position: relative;">km/h</p></div>
+
+        <div class="fuel-circle" data-value="0" data-size="80" data-thickness="10" data-reverse="false"></div>
+        <div class = "gear"><p id = "gear" style="margin: 0px; position: relative;">0</p></div>
+
+        <div class = "fordulatszam"><p style="margin: 0px; position: relative;" id = "fordulatszam">5480</p></div>
+        <div class = "fordulatszamtext"><p style="margin: 0px; position: relative;">RPM</p></div>
+
+        <div class = "seatbelt"></div>
+        <div class = "seatbelt-off blink" id = "seatbelt"></div>
+
+        <!--<div class = "battery"></div>
+        <div class = "engine"></div>
+        <div class = "oil"></div> -->
+
+        <div class = "indexL" ></div>
+        <div class = "indexR"></div>
+        <div class = "indexLOn" id = "indexL"></div>
+        <div class = "indexROn" id = "indexR"></div>
+        <div class = "handbrakeOFF"></div>
+        <div class = "lightOFF"></div>
+        <div class = "handbrakeON" id = "handbrakeOn"></div>
+        <div class = "lightON" id = "lightOn"></div>
+
+        <div class = "megtettkm" id = "megtettkm"><p style="margin: 0px; position: relative;">0 KM</p></div>
+        <!--<div class = "pointers"></div>-->
+    </div>
+
+    <script>
+        $('.gear-circle').circleProgress({
+            startAngle: -Math.PI * 1.29,
+            value: 0,
+            animation: false,
+            fill: {gradient: ['#e97619', '#ff5f43']}
+        });
+
+        $('.fuel-circle').circleProgress({
+                emptyFill: "rgba(0, 0, 0, 0)",
+                startAngle: -Math.PI*0.46,
+                value: 0.61,
+                animation: false,
+                fill: {gradient: ['#e97619', '#ff5f43']} /* #ff5f43*/
+        });
+
+        function setSpeed(speed){
+            document.getElementById("speed").innerHTML = speed;
+            var calSpeed = speed/300;
+
+            if (calSpeed > 1) {
+                calSpeed = 1;
+            }
+
+            $('.gear-circle').circleProgress({
+                emptyFill: "rgba(0, 0, 0, 0)",
+                startAngle: -Math.PI * 1.29,
+                value: 0.785*calSpeed,
+                animation: false,
+                fill: {gradient: ['#e97619', '#f54242']} /* #ff5f43*/
+            });
+        };
+
+        function setFuel(fuel){
+            $('.fuel-circle').circleProgress({
+                emptyFill: "rgba(0, 0, 0, 0)",
+                startAngle: -Math.PI*0.46,
+                value: 0.61*fuel,
+                animation: false,
+                fill: {gradient: ['#e97619', '#ff5f43']} /* #ff5f43*/
+            });
+        };
+
+        function setGear(gear){
+            document.getElementById("gear").innerHTML = gear;
+        };
+
+        function setSeatbelt(seatbelt){
+            document.getElementById( 'seatbelt' ).style.display = seatbelt;
+        };
+
+        function showSpeedo(state){
+            document.getElementById( 'speedo' ).style.display = state;
+        };
+
+        function setRPM(rpm){
+            document.getElementById("fordulatszam").innerHTML = rpm;
+        };
+
+        function setDistance(dis){
+            document.getElementById("megtettkm").innerHTML = dis + " KM";
+        };
+
+        function setIndicatorState(side, state){
+            var index = document.getElementById(side);
+            if (state == 1) {
+                index.style.display  = "block";
+                index.classList.add("blink");
+            } else {
+                index.style.display  = "none";
+                index.classList.remove("blink");
+            };
+        };
+
+        function setLightState(state) {
+            var light = document.getElementById("lightOn");
+
+            if (state == 2) {
+                light.style.display  = "block";
+            } else {
+                light.style.display  = "none";
+            };
+        };
+
+        function setHandbrakeState(state) {
+            var brake = document.getElementById("handbrakeOn");
+
+            if (state == 1) {
+                brake.style.display  = "block";
+            } else {
+                brake.style.display  = "none";
+            };
+        };
+
+        function setSpeedoType(type) {
+            var speedo = document.getElementById("speedo");
+
+            if (type == "electric") {
+                speedo.style.backgroundImage = "url('files/bg_energy.png')";
+            } else {
+                speedo.style.backgroundImage = "url('bg.png')";
+            };
+        };
+    </script>
+</body>
+</html>
