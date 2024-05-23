@@ -1,6 +1,0 @@
-<map edf:definitions="editor_main">
-    <removeWorldObject id="removeWorldObject (sw_gas01int) (1)" radius="3.6421323" interior="0" model="12854" lodModel="0" posX="666.492" posY="-571.18" posZ="17.3125" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-    <removeWorldObject id="removeWorldObject (petrolpumpnew) (1)" radius="80" interior="0" model="1686" lodModel="0" posX="666.492" posY="-571.18" posZ="17.3125" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
-
-    <object id="object (rubbled01_SFS) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="10984" scale="1" doublesided="false" collisions="true" posX="651.70001" posY="-588.70001" posZ="15.45" rotX="0" rotY="0" rotZ="0"></object>
-</map>

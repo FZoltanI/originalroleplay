@@ -1,7 +1,0 @@
-<map edf:definitions="editor_main">
-    <object id="object (vgsbboardsigns13) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="8326" scale="1" doublesided="false" collisions="true" frozen="false" posX="1881.2" posY="-1762.3" posZ="21.7" rotX="0" rotY="0" rotZ="269.997"></object>
-    <object id="object (vgsbboardsigns13) (4)" breakable="true" interior="0" alpha="255" dimension="0" model="8326" scale="1" doublesided="false" collisions="true" frozen="false" posX="2153.5" posY="-2233.5" posZ="28.5" rotX="0" rotY="0" rotZ="314.5"></object>
-    <object id="object (arptpillar01_lvs) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3440" scale="1" doublesided="false" collisions="true" frozen="false" posX="2156.8" posY="-2231.5" posZ="25.1" rotX="0" rotY="0" rotZ="0"></object>
-    <object id="object (arptpillar01_lvs) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="3440" scale="1" doublesided="false" collisions="true" frozen="false" posX="2150.8999" posY="-2237.3" posZ="25.1" rotX="0" rotY="0" rotZ="0"></object>
-    <object id="object (vgsbboardsigns13) (5)" breakable="true" interior="0" alpha="255" dimension="0" model="8326" scale="1" doublesided="false" collisions="true" frozen="false" posX="620.20002" posY="-1197.9" posZ="32.3" rotX="0" rotY="0" rotZ="112.5"></object>
-</map>

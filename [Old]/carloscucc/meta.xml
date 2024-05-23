@@ -1,8 +1,0 @@
-<meta>
-    <info author="Wisam" name="3D radio speakers script" version="1.0" type="script" />
-    <script src="client.lua" type="client" cache="false" />
-    <script src="server.lua" type="server" />
-    <file src="grofo.mp3" />
-    <file src="600.dff" />
-    <file src="600.txd" />
-</meta>

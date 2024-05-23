@@ -1,2 +1,0 @@
-
-oTempomaty CountrySide

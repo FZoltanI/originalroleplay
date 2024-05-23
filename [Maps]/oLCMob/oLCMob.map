@@ -1,5 +1,0 @@
-<map edf:definitions="editor_main">
-    <object id="object (xref_garagedoor) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="2885" scale="0.60000002" doublesided="false" collisions="true" posX="2683.7" posY="-1114.5" posZ="72.4" rotX="0" rotY="0" rotZ="180"></object>
-    <object id="object (tag_azteca) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="1531" scale="1" doublesided="false" collisions="true" posX="2688.3" posY="-1114.396" posZ="71.4" rotX="355" rotY="0" rotZ="270"></object>
-    <object id="object (tag_temple) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="1529" scale="1" doublesided="false" collisions="true" posX="2679.3" posY="-1114.396" posZ="69.4" rotX="7" rotY="0" rotZ="270"></object>
-</map>

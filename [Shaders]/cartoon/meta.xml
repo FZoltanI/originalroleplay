@@ -1,7 +1,0 @@
-<meta>
-    <info name="CartoonShader" description="Cartoon Shader v1" author="Sam@ke" version="1.0.0" type="script" />
-    
-    <script src="ToonShader.lua" type="client" cache="false" />
-    
-    <file src="shaders/ToonShader.fx" type="client" />
-</meta>

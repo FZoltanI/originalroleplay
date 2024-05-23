@@ -1,6 +1,0 @@
-addEvent("fixMarker > fixVehicle", true)
-addEventHandler("fixMarker > fixVehicle", resourceRoot, function()
-    local veh = getPedOccupiedVehicle(client)
-    fixVehicle(veh)
-    setElementHealth(veh, 1000)
-end)
