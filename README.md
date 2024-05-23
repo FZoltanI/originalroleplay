@@ -15,10 +15,11 @@ Böngéssze, használja mindenki a saját kedve szerint a modot.
 EN:
 
 
-In recent times, the OriginalRoleplay MTA mod has started spreading in various places. Many people believe that the mod is their own property, so we have decided that since the original team has ceased their MTA activities, we will make the official mod available to everyone.
+In recent times, the **OriginalRoleplay MTA** mod has started spreading in various places. Many people believe that the mod is their own property, so we have decided that since the **original team has ceased their MTA activities**, we will make the **official mod** available to everyone.
 
-The final, public version of the mod was developed by the original developers between 2019 and 2023. (Original developers: myself, Carlos; Paul; Dexter; Jack; and a few other developers whose names you can find among the files...)
+The final, public version of the mod was developed by the original developers between **2019 and 2023**. (Original developers: myself, **Carlos; Paul; Dexter; Jack**; and a few other developers whose names you can find among the files...)
 
 Feel free to browse and use the mod as you like.
 
-Don't fall for scams, don't pay for the mod, as this is the original mod, which is now publicly and freely available to everyone!
+> [!CAUTION]
+> **Don't fall for scams, don't pay for the mod, as this is the original mod, which is now publicly and freely available to everyone!**
