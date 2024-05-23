@@ -1,0 +1,15 @@
+<meta>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="server.lua" type="server"></script>
+    
+    <file src="sound/ambulance.mp3" />
+    <file src="sound/siren2.mp3" />
+    <file src="sound/siren2_fire.mp3" />
+    <file src="sound/siren3.mp3" />
+    <file src="sound/siren3_fire.mp3" />
+    <file src="sound/siren4.mp3" />
+    <file src="sound/sirenhorn.mp3" />
+    <file src="xxa.png" />
+    
+    
+</meta>

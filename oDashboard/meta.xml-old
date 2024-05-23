@@ -1,0 +1,149 @@
+<meta>
+    <oop>true</oop>
+    <script src="faction/admin/global.lua" type="shared" cache="false"></script>
+    <script src="faction/factionGlobal.lua" type="shared" cache="false"></script>
+    <script src="global.lua" type="shared" cache="false"></script>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="bugReportS.lua" type="server" cache="false"></script>
+    <script src="bugReportC.lua" type="client" cache="false"></script>
+    <script src="openCreate.lua" type="client" cache="false"></script>
+    <script src="dashServer.lua" type="server" cache="false"></script>
+    <script src="faction/factionClient.lua" type="client" cache="false"></script>
+    <script src="faction/server.lua" type="server" cache="false"></script>
+    <script src="faction/admin/aClient.lua" type="client" cache="false"></script>
+    <script src="faction/admin/commandsS.lua" type="server" cache="false"></script>
+    <script src="panels/options.lua" type="client" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="files/bg.png"></file>
+    <file src="files/bug.png"></file>
+    <file src="files/bug_active.png"></file>
+    <file src="files/card-members.png"></file>
+    <file src="files/card-vehicles.png"></file>
+    <file src="files/premium.png"></file>
+    <file src="files/xmas.png"></file>
+    <file src="files/adminHelp.png"></file>
+    <file src="files/arrow.png"></file>
+    <file src="files/circle.png"></file>
+    <file src="files/effect.png"></file>
+    <file src="files/verified.png"></file>
+    <file src="files/rent.png"></file>
+    <file src="files/daily/dollar.png"></file>
+    <file src="files/daily/cc.png"></file>
+    <file src="files/daily/pp.png"></file>
+    <file src="files/daily/car.png"></file>
+    <file src="files/daily/house.png"></file>
+    <file src="files/icons/money/dollar1.png"></file>
+    <file src="files/icons/money/dollar2.png"></file>
+    <file src="files/icons/money/dollar3.png"></file>
+    <file src="files/icons/money/dollar4.png"></file>
+    <file src="files/icons/money/dollar5.png"></file>
+    <file src="files/icons/money/dollar6.png"></file>
+    <file src="files/options/target.png"></file>
+    <file src="files/options/graphics.png"></file>
+    <file src="files/options/settings.png"></file>
+    <file src="files/options/char.png"></file>
+    <file src="files/options/xmas.png"></file>
+    <file src="files/cases/free.png"></file>
+    <file src="files/cases/easter.png"></file>
+    <file src="files/cases/gold.png"></file>
+    <file src="files/cases/winter.png"></file>
+    <file src="files/cases/pink.png"></file>
+    <file src="files/cases/mesterkonyvek.png"></file>
+    <file src="files/cases/knives.png"></file>
+    <file src="files/cases/reboot.png"></file>
+    <file src="files/fonts/condensed-bold.ttf"></file>
+    <file src="files/icons/user.png"></file>
+    <file src="files/icons/options.png"></file>
+    <file src="files/icons/admins.png"></file>
+    <file src="files/icons/dollar.png"></file>
+    <file src="files/icons/factions.png"></file>
+    <file src="files/icons/placeholder.png"></file>
+    <file src="files/icons/pp.png"></file>
+    <file src="files/icons/daily.png"></file>
+    <file src="files/icons/alert.png"></file>
+    <file src="files/icons/crown.png"></file>
+    <file src="files/icons/online.png"></file>
+    <file src="files/icons/lock.png"></file>
+    <file src="files/icons/unlock.png"></file>
+    <file src="files/icons/pet.png"></file>
+    <file src="files/icons/key.png"></file>
+    <file src="files/icons/sell.png"></file>
+    <file src="files/sounds/close.wav"></file>
+    <file src="files/sounds/hover.wav"></file>
+    <file src="files/sounds/open.wav"></file>
+    <file src="files/sounds/select.wav"></file>
+    <file src="files/icons/active/user.png"></file>
+    <file src="files/icons/active/options.png"></file>
+    <file src="files/icons/active/admins.png"></file>
+    <file src="files/icons/active/dollar.png"></file>
+    <file src="files/icons/active/factions.png"></file>
+    <file src="files/icons/active/pp.png"></file>
+    <file src="files/icons/active/daily.png"></file>
+    <file src="files/icons/active/pet.png"></file>
+    <file src="files/logo.png"></file>
+    <file src="files/logo2.png"></file>
+    <file src="files/onoff.png"></file>
+    <file src="files/admin_panel/more1.png"></file>
+    <file src="files/admin_panel/more2.png"></file>
+    <file src="files/admin_panel/delete.png"></file>
+    <file src="files/admin_panel/tick.png"></file>
+    <file src="files/admin_panel/return.png"></file>
+    <file src="files/admin_panel/plus.png"></file>
+    <file src="files/admin_panel/minus.png"></file>
+    <file src="files/admin_panel/radio.png"></file>
+    <file src="files/admin_panel/edit.png"></file>
+    <file src="files/admin_panel/view.png"></file>
+    <file src="files/admin_panel/close.png"></file>
+    <file src="files/faction_panel/dutys.png"></file>
+    <file src="files/faction_panel/home.png"></file>
+    <file src="files/faction_panel/inventory.png"></file>
+    <file src="files/faction_panel/ranks.png"></file>
+    <file src="files/faction_panel/team.png"></file>
+    <file src="files/faction_panel/vehicle.png"></file>
+    <file src="files/faction_panel/addmember.png"></file>
+    <file src="files/faction_panel/addrank.png"></file>
+    <file src="files/faction_panel/automobile.png"></file>
+    <file src="files/faction_panel/plane.png"></file>
+    <file src="files/faction_panel/bike.png"></file>
+    <file src="files/faction_panel/helicopter.png"></file>
+    <file src="files/faction_panel/boat.png"></file>
+    <file src="files/faction_panel/train.png"></file>
+    <file src="files/faction_panel/bmx.png"></file>
+    <file src="files/faction_panel/trailer.png"></file>
+    <file src="files/faction_panel/monstertruck.png"></file>
+    <file src="files/faction_panel/quad.png"></file>
+    <file src="files/faction_icons/1.png"></file>
+    <file src="files/faction_icons/2.png"></file>
+    <file src="files/faction_icons/3.png"></file>
+    <file src="files/faction_icons/4.png"></file>
+    <file src="files/faction_icons/5.png"></file>
+    <file src="files/rarity.png"></file>
+    <file src="files/open_bg.png"></file>
+    <file src="files/opening.mp3"></file>
+    <file src="files/opened_case.mp3"></file>
+    <export function="getFactionName" type="server"></export>
+    <export function="getFactionName" type="client"></export>
+    <export function="getFactionType" type="server"></export>
+    <export function="getFactionType" type="client"></export>
+    <export function="isPlayerFactionMember" type="client"></export>
+    <export function="isPlayerFactionTypeMember" type="client"></export>
+    <export function="getOnlineFactionTypeMemberCount" type="client"></export>
+    <export function="isPlayerFactionTypeMember" type="server"></export>
+    <export function="isPlayerInFaction" type="server"></export>
+    <export function="getPlayerAllFactions" type="server"></export>
+    <export function="getPlayerAllFactions" type="client"></export>
+    <export function="getDutySkinFactionPlayer" type="client"></export>
+    <export function="getAllSkinsFromFaction" type="client"></export>
+    <export function="getAllowedSkinsFaction" type="client"></export>
+    <export function="isPlayerLeader" type="client"></export>
+    <export function="getFactionMoney" type="client"></export>
+    <export function="ifPlayerLeaderOfTheFaction" type="server"></export>
+    <export function="setFactionBankMoney" type="server"></export>
+    <export function="outputFactionLogToAdmins" type="server"></export>
+    <export function="isRealFaction" type="server"></export>
+    <export function="getFactionBankMoney" type="server"></export>
+    <export function="setFactionBankMoney" type="server"></export>
+    <export function="getPlayerPaymentInFaction" type="server"></export>
+    <export function="getDashboardSettingsValue" type="client"></export>
+    <export function="getTalkingAnimation" type="shared"></export>
+</meta>

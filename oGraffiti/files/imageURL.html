@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		
+		<style>
+			@font-face {
+				font-family: Roboto;
+				src: url('fonts/Roboto.ttf');
+			}
+			
+			* {
+				margin: 0;
+				padding: 0;
+				font-family: 'Roboto', sans-serif;
+				overflow: hidden;
+				-webkit-transition: all .3s ease;
+				-moz-transition: all .3s ease;
+				-o-transition: all .3s ease;
+				transition: all .3s ease;
+			}
+			
+			::selection {
+				background-color: #757575;
+			}
+			
+			body {
+				color: #fff;
+				text-shadow: 2px #000;
+			}
+			
+			.container {
+				padding-top: 30px;
+				vertical-align: middle;
+				white-space: nowrap;
+			}
+			
+			#url_input {
+				width: 100%;
+				height: 50px;
+				background: #222;
+				border: none;
+				font-size: 12pt;
+				float: left;
+				color: #ccc;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+				border-radius: 5px;
+				text-align: center;
+				outline: 0;
+			}
+			
+			#url_button {
+				padding: 3px;
+				margin-bottom: 15px;
+				font-size: 16px;
+				font-weight: bold;
+				cursor: pointer;
+				display:block;
+				width: 200px;
+				height: 40px;
+				outline: 0;
+				border: 3px solid rgba(233, 118, 25, .1);
+				color: #fff;
+				background: rgba(233, 118, 25, .5);
+			}
+
+			#url_button:hover {
+				border: 3px solid rgba(233, 118, 25, .3);
+				background: rgba(233, 118, 25, .7);
+			}
+			
+			.download {
+				display: table;
+				margin: 0 auto;
+			}
+		</style>
+		
+		<script>
+			function startDownload() {
+				return mta.triggerEvent("onClientTryToDownloadImage", document.getElementById("url_input").value);
+			}
+		</script>
+	</head>
+	<body>
+		<div id="main" style="position: absolute; font-family: 'Roboto', sans-serif; text-align: center; padding-top: 45px;">
+			<br/>
+
+			Támogatott formátumok: <b style="color: #e97619">.png</b>, <b style="color: #e97619">.jpg</b>, <b style="color: #e97619">.jpeg</b> és <b style="color: #e97619">.bmp</b> <b style="color: #e97619; text-decoration: underline;">(Ajánlott felbontás: <b>580x360</b>)</b><br/>
+			A kép elérési útját másold be a lentebbi mezőbe és kattints a letöltés gombra!</b>
+			<div class="container">
+				<input type="text" placeholder="Kép elérési útja" id="url_input" />
+			</div><br/>
+			<div class="download">
+				<button id="url_button" type="submit" onclick="startDownload();">Letöltés</button>
+			</div>
+		</div>
+	</body>
+</html>

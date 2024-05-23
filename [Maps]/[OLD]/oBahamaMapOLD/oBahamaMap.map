@@ -1,0 +1,12 @@
+<map edf:definitions="editor_main">
+    <object id="object (gaz18_LAW) (1)" breakable="true" interior="0" alpha="255" model="6104" doublesided="false" scale="1" dimension="0" posX="1003.1481" posY="-1467.6953" posZ="16.54813" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (gaz18_LAW) (1)" radius="56.597141" interior="0" model="6104" lodModel="6154" posX="1003.1484" posY="-1467.6953" posZ="16.57813" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (gaz21_LAW) (1)" breakable="true" interior="0" alpha="255" model="6151" doublesided="false" scale="1" dimension="0" posX="1007.3125" posY="-1435.1641" posZ="19.11719" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (gaz21_LAW) (1)" radius="36.989723" interior="0" model="6151" lodModel="6153" posX="1007.3125" posY="-1435.1641" posZ="19.11719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (gaz20_law) (1)" breakable="true" interior="0" alpha="255" model="6152" doublesided="false" scale="1" dimension="0" posX="990.08594" posY="-1450.0859" posZ="12.7734" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (gaz20_law) (1)" radius="73.999542" interior="0" model="6152" lodModel="6156" posX="990.08594" posY="-1450.0859" posZ="12.77344" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (telgrphpoleall) (1)" radius="11.724485" interior="0" model="1307" lodModel="0" posX="996.75781" posY="-1415.3437" posZ="12.36719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (telgrphpoleall) (2)" radius="11.724485" interior="0" model="1307" lodModel="0" posX="1040.8906" posY="-1415.3437" posZ="12.36719" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (MTraffic1) (1)" breakable="true" interior="0" alpha="255" model="1283" doublesided="false" scale="1" dimension="0" posX="1052.1" posY="-1406.9" posZ="15.6" rotX="0" rotY="0" rotZ="270.75"></object>
+    <removeWorldObject id="removeWorldObject (MTraffic1) (1)" radius="11.08576" interior="0" model="1283" lodModel="0" posX="1044.0422" posY="-1411.0187" posZ="18.88221" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

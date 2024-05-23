@@ -1,0 +1,94 @@
+<meta>
+    <oop>true</oop>
+    <script src="global.lua" type="shared" cache="false"></script>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="server.lua" type="server" cache="false"></script>
+    <script src="services.lua" type="client" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="files/phone.png"></file>
+    <file src="files/desktop_toolbar.png"></file>
+    <file src="files/apps/default_icons.png"></file>
+    <file src="files/apps/10.png"></file>
+    <file src="files/apps/11_1.png"></file>
+    <file src="files/apps/11_2.png"></file>
+    <file src="files/apps/11_3.png"></file>
+    <file src="files/apps/12.png"></file>
+    <file src="files/apps/16_1.png"></file>
+    <file src="files/apps/16_2.png"></file>
+    <file src="files/add_news.png"></file>
+    <file src="files/calllogs.png"></file>
+    <file src="files/bg.png"></file>
+    <file src="files/call.png"></file>
+    <file src="files/arrow.png"></file>
+    <file src="files/arrow2.png"></file>
+    <file src="files/arrow3.png"></file>
+    <file src="files/dot.png"></file>
+    <file src="files/add.png"></file>
+    <file src="files/switch.png"></file>
+    <file src="files/appleLogo_1.png"></file>
+    <file src="files/appleLogo_2.png"></file>
+    <file src="files/delete.png"></file>
+    <file src="files/call_icon.png"></file>
+    <file src="files/call_icon2.png"></file>
+    <file src="files/call_icon3.png"></file>
+    <file src="files/speaker_icon.png"></file>
+    <file src="files/backspace.png"></file>
+    <file src="files/backgrounds/1.png"></file>
+    <file src="files/backgrounds/2.png"></file>
+    <file src="files/backgrounds/3.png"></file>
+    <file src="files/backgrounds/4.png"></file>
+    <file src="files/backgrounds/5.png"></file>
+    <file src="files/backgrounds/6.png"></file>
+    <file src="files/backgrounds/7.png"></file>
+    <file src="files/backgrounds/8.png"></file>
+    <file src="files/backgrounds/9.png"></file>
+    <file src="files/backgrounds/10.png"></file>
+    <file src="files/backgrounds/11.png"></file>
+    <file src="files/call/call_out.png"></file>
+    <file src="files/call/call_in.png"></file>
+    <file src="files/avatars/big/1.png"></file>
+    <file src="files/avatars/small/1.png"></file>
+    <file src="files/avatars/small/112.png"></file>
+    <file src="files/avatars/small/bj.png"></file>
+    <file src="files/sounds/calling.wav"></file>
+    <file src="files/sounds/error.wav"></file>
+    <file src="files/sounds/out.wav"></file>
+    <file src="files/optionIcons/back.png"></file>
+    <file src="files/optionIcons/ringstone.png"></file>
+    <file src="files/optionIcons/darkmode.png"></file>
+    <file src="files/optionIcons/privacy.png"></file>
+    <file src="files/fonts/sf_ui_display/thin.ttf"></file>
+    <file src="files/fonts/sf_ui_display/medium.ttf"></file>
+    <file src="files/fonts/sf_ui_display/bold.ttf"></file>
+    <file src="files/fonts/sf_ui_display/heavy.ttf"></file>
+    <file src="files/ringstones/1.mp3"></file>
+    <file src="files/ringstones/2.mp3"></file>
+    <file src="files/ringstones/3.mp3"></file>
+    <file src="files/ringstones/4.mp3"></file>
+    <file src="files/ringstones/5.mp3"></file>
+    <file src="files/ringstones/6.mp3"></file>
+    <file src="files/notsounds/1.mp3"></file>
+    <file src="files/notsounds/2.mp3"></file>
+    <file src="files/notsounds/3.mp3"></file>
+    <file src="files/notsounds/4.mp3"></file>
+    <file src="files/notsounds/5.mp3"></file>
+    <file src="files/notsounds/6.mp3"></file>
+    <file src="files/notsounds/7.mp3"></file>
+    <file src="files/notsounds/8.mp3"></file>
+    <file src="files/weatherIcons/cloud.png"></file>
+    <file src="files/weatherIcons/night.png"></file>
+    <file src="files/weatherIcons/rain.png"></file>
+    <file src="files/weatherIcons/sun_1.png"></file>
+    <file src="files/weatherIcons/sun_2.png"></file>
+    <file src="files/weatherIcons/thunder.png"></file>
+    <file src="files/weatherIcons/fog.png"></file>
+    <file src="files/weatherIcons/snow.png"></file>
+    <file src="files/roundedRectangle.png"></file>
+    <file src="files/services/sprint.png"></file>
+    <file src="files/services/att.png"></file>
+    <file src="files/services/verizon.png"></file>
+    <file src="files/dw_bg.png"></file>
+    <file src="files/l_arrow.png"></file>
+    <export function="setPhoneVisible" type="client"></export>
+    <export function="checkPhoneVisible" type="client"></export>
+</meta>

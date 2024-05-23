@@ -1,0 +1,82 @@
+<meta>
+    <oop>true</oop>
+    <script src="global.lua" type="shared" cache="false"></script>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="server.lua" type="server" cache="false"></script>
+    <script src="tuningScripts/neonC.lua" type="client" cache="false"></script>
+    <script src="tuningScripts/neonS.lua" type="server" cache="false"></script>
+    <script src="tuningScripts/airrideC.lua" type="client" cache="false"></script>
+    <script src="tuningScripts/airrideS.lua" type="server" cache="false"></script>
+    <script src="tuningScripts/hornC.lua" type="client" cache="false"></script>
+    <script src="tuningScripts/hornS.lua" type="server" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="files/loadIcon.png"></file>
+    <file src="files/sticker.png"></file>
+    <file src="files/plate.png"></file>
+    <file src="files/width.png"></file>
+    <file src="files/cross.png"></file>
+    <file src="files/variant.png"></file>
+    <file src="files/weight.png"></file>
+    <file src="files/ecu.png"></file>
+    <file src="files/logo.png"></file>
+    <file src="files/engine.png"></file>
+    <file src="files/paint.png"></file>
+    <file src="files/gear.png"></file>
+    <file src="files/brake.png"></file>
+    <file src="files/plateText.png"></file>
+    <file src="files/turbo.png"></file>
+    <file src="files/wheel.png"></file>
+    <file src="files/nitro.png"></file>
+    <file src="files/premium.png"></file>
+    <file src="files/roof.png"></file>
+    <file src="files/exhaust.png"></file>
+    <file src="files/spoiler.png"></file>
+    <file src="files/bumper.png"></file>
+    <file src="files/neon.png"></file>
+    <file src="files/arrow.png"></file>
+    <file src="files/triangle.png"></file>
+    <file src="files/dollar.png"></file>
+    <file src="files/drive_all.png"></file>
+    <file src="files/drive_front.png"></file>
+    <file src="files/drive_back.png"></file>
+    <file src="files/lamp.png"></file>
+    <file src="files/horn.png"></file>
+    <file src="files/supercharger.png"></file>
+    <file src="files/smokeTire.png"></file>
+    <file src="files/zaa.png"></file>
+    <file src="files/texreplace.fx"></file>
+    <file src="files/colorpalette.png"></file>
+    <file src="files/sounds/close.wav"></file>
+    <file src="files/sounds/open.wav"></file>
+    <file src="files/sounds/hover.wav"></file>
+    <file src="files/sounds/select.wav"></file>
+    <file src="files/sounds/horns/1.mp3"></file>
+    <file src="files/sounds/horns/2.mp3"></file>
+    <file src="files/sounds/horns/3.mp3"></file>
+    <file src="files/sounds/horns/4.mp3"></file>
+    <file src="files/sounds/horns/5.mp3"></file>
+    <file src="files/sounds/horns/6.mp3"></file>
+    <file src="files/sounds/horns/7.mp3"></file>
+    <file src="files/sounds/horns/8.mp3"></file>
+    <file src="files/sounds/horns/9.mp3"></file>
+    <file src="files/sounds/horns/10.mp3"></file>
+    <file src="files/sounds/horns/11.mp3"></file>
+    <file src="files/sounds/horns/12.mp3"></file>
+    <file src="files/sounds/horns/13.mp3"></file>
+    <file src="files/sounds/horns/14.mp3"></file>
+    <file src="files/sounds/wrench.wav"></file>
+    <file src="files/sounds/spray.wav"></file>
+    <file src="files/sounds/airride.mp3"></file>
+    <file src="files/models/textures.txd"></file>
+    <file src="files/models/red.dff"></file>
+    <file src="files/models/blue.dff"></file>
+    <file src="files/models/green.dff"></file>
+    <file src="files/models/yellow.dff"></file>
+    <file src="files/models/pink.dff"></file>
+    <file src="files/models/white.dff"></file>
+    <file src="files/models/ice.dff"></file>
+    <file src="files/models/lightblue.dff"></file>
+    <file src="files/models/orange.dff"></file>
+    <file src="files/models/rainbow.dff"></file>
+    <export function="applyVehicleTunings" type="server"></export>
+</meta>

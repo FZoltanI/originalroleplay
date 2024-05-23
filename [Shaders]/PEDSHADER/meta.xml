@@ -1,0 +1,12 @@
+<meta>
+	<info name="Shader Ped Normal" description="Normal mapping and lighting effects for peds" author="Ren712" version="1.0.2" type="script" />
+	<script src="c_main.lua" type="client" />
+	<script src="c_sunInfluence.lua" type="client" />
+	<file src="shaders/pedNormal.fx" type="client" />
+	<file src="shaders/pedSobel.fx" type="client" />
+	<file src="shaders/mta-helper.fx" type="client" />
+	<export function="applyNormalToPedTexture" type="client" />
+	<export function="removeNormalFromPedTexture" type="client" />
+	<export function="removeSpecularFromGTAPeds" type="client" />
+	<export function="applySpecularToGTAPeds" type="client" />
+</meta>

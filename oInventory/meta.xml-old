@@ -1,0 +1,395 @@
+<meta>
+    <oop>true</oop>
+    <script src="sourceG.lua" type="shared" cache="false"></script>
+    <script src="sourceC.lua" type="client" cache="false"></script>
+    <script src="sourceS.lua" type="server" cache="false"></script>
+    <script src="useItem/sourceC.lua" type="client" cache="false"></script>
+    <script src="useItem/sourceS.lua" type="server" cache="false"></script>
+    <script src="actionbar/sourceC.lua" type="client" cache="false"></script>
+    <script src="actionbar/sourceS.lua" type="server" cache="false"></script>
+    <script src="trash/sourceC.lua" type="client" cache="false"></script>
+    <script src="trash/sourceS.lua" type="server" cache="false"></script>
+    <script src="safe/sourceC.lua" type="client" cache="false"></script>
+    <script src="safe/sourceS.lua" type="server" cache="false"></script>
+    <script src="frisk/sourceC.lua" type="client" cache="false"></script>
+    <script src="frisk/sourceS.lua" type="server" cache="false"></script>
+    <script src="keycopy/client.lua" type="client" cache="false"></script>
+    <script src="keycopy/server.lua" type="server" cache="false"></script>
+    <script src="firework/server.lua" type="server" cache="false"></script>
+    <script src="firework/client.lua" type="client" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="firework/files/shootlight.dff"></file>
+    <file src="firework/files/smoke_flare.dff"></file>
+    <file src="firework/files/smoke30m.dff"></file>
+    <file src="firework/files/fwSound.mp3"></file>
+    <file src="firework/files/flying.mp3"></file>
+    <file src="firework/files/burst.mp3"></file>
+    <file src="files/search.png"></file>
+    <file src="files/cross.png"></file>
+    <file src="files/activeItem.png"></file>
+    <file src="files/page.png"></file>
+    <file src="files/images/icons/backpack.png"></file>
+    <file src="files/images/icons/key.png"></file>
+    <file src="files/images/icons/licens.png"></file>
+    <file src="files/images/icons/safe.png"></file>
+    <file src="files/images/icons/car.png"></file>
+    <file src="files/images/icons/eye.png"></file>
+    <file src="files/sounds/copy.mp3"></file>
+    <file src="files/sounds/bandaging.mp3"></file>
+    <file src="files/sounds/injection.mp3"></file>
+    <file src="files/sounds/hover.mp3"></file>
+    <file src="files/sounds/select.mp3"></file>
+    <file src="files/sounds/move.mp3"></file>
+    <file src="files/sounds/overheat.mp3"></file>
+    <file src="files/sounds/bincoselect.mp3"></file>
+    <file src="files/sounds/pda.mp3"></file>
+    <file src="files/sounds/dice.mp3"></file>
+    <file src="files/sounds/card.mp3"></file>
+    <file src="files/sounds/paper-rip.mp3"></file>
+    <file src="files/sounds/coin.wav"></file>
+    <file src="files/sounds/hover2.wav"></file>
+    <file src="files/items/-1.png"></file>
+    <file src="files/items/0.png"></file>
+    <file src="files/items/1.png"></file>
+    <file src="files/items/2.png"></file>
+    <file src="files/items/3.png"></file>
+    <file src="files/items/4.png"></file>
+    <file src="files/items/5.png"></file>
+    <file src="files/items/6.png"></file>
+    <file src="files/items/7.png"></file>
+    <file src="files/items/8.png"></file>
+    <file src="files/items/9.png"></file>
+    <file src="files/items/10.png"></file>
+    <file src="files/items/11.png"></file>
+    <file src="files/items/12.png"></file>
+    <file src="files/items/13.png"></file>
+    <file src="files/items/14.png"></file>
+    <file src="files/items/15.png"></file>
+    <file src="files/items/16.png"></file>
+    <file src="files/items/17.png"></file>
+    <file src="files/items/18.png"></file>
+    <file src="files/items/19.png"></file>
+    <file src="files/items/20.png"></file>
+    <file src="files/items/21.png"></file>
+    <file src="files/items/22.png"></file>
+    <file src="files/items/23.png"></file>
+    <file src="files/items/24.png"></file>
+    <file src="files/items/25.png"></file>
+    <file src="files/items/26.png"></file>
+    <file src="files/items/27.png"></file>
+    <file src="files/items/27_2.png"></file>
+    <file src="files/items/27_3.png"></file>
+    <file src="files/items/27_4.png"></file>
+    <file src="files/items/27_5.png"></file>
+    <file src="files/items/27_6.png"></file>
+    <file src="files/items/27_7.png"></file>
+    <file src="files/items/27_8.png"></file>
+    <file src="files/items/28.png"></file>
+    <file src="files/items/28_2.png"></file>
+    <file src="files/items/28_3.png"></file>
+    <file src="files/items/28_4.png"></file>
+    <file src="files/items/28_5.png"></file>
+    <file src="files/items/28_6.png"></file>
+    <file src="files/items/28_7.png"></file>
+    <file src="files/items/28_8.png"></file>
+    <file src="files/items/28_9.png"></file>
+    <file src="files/items/29.png"></file>
+    <file src="files/items/30.png"></file>
+    <file src="files/items/30_2.png"></file>
+    <file src="files/items/30_3.png"></file>
+    <file src="files/items/30_4.png"></file>
+    <file src="files/items/31.png"></file>
+    <file src="files/items/32.png"></file>
+    <file src="files/items/32_2.png"></file>
+    <file src="files/items/32_3.png"></file>
+    <file src="files/items/32_4.png"></file>
+    <file src="files/items/32_5.png"></file>
+    <file src="files/items/32_6.png"></file>
+    <file src="files/items/32_7.png"></file>
+    <file src="files/items/33.png"></file>
+    <file src="files/items/34.png"></file>
+    <file src="files/items/35.png"></file>
+    <file src="files/items/36.png"></file>
+    <file src="files/items/37.png"></file>
+    <file src="files/items/38.png"></file>
+    <file src="files/items/38_2.png"></file>
+    <file src="files/items/38_3.png"></file>
+    <file src="files/items/39.png"></file>
+    <file src="files/items/39_2.png"></file>
+    <file src="files/items/39_3.png"></file>
+    <file src="files/items/39_4.png"></file>
+    <file src="files/items/39_5.png"></file>
+    <file src="files/items/39_6.png"></file>
+    <file src="files/items/39_7.png"></file>
+    <file src="files/items/39_8.png"></file>
+    <file src="files/items/39_9.png"></file>
+    <file src="files/items/39_10.png"></file>
+    <file src="files/items/40.png"></file>
+    <file src="files/items/40_2.png"></file>
+    <file src="files/items/40_3.png"></file>
+    <file src="files/items/40_4.png"></file>
+    <file src="files/items/40_5.png"></file>
+    <file src="files/items/41.png"></file>
+    <file src="files/items/42.png"></file>
+    <file src="files/items/42_2.png"></file>
+    <file src="files/items/42_3.png"></file>
+    <file src="files/items/42_4.png"></file>
+    <file src="files/items/42_5.png"></file>
+    <file src="files/items/43.png"></file>
+    <file src="files/items/44.png"></file>
+    <file src="files/items/45.png"></file>
+    <file src="files/items/46.png"></file>
+    <file src="files/items/47.png"></file>
+    <file src="files/items/48.png"></file>
+    <file src="files/items/49.png"></file>
+    <file src="files/items/50.png"></file>
+    <file src="files/items/51.png"></file>
+    <file src="files/items/52.png"></file>
+    <file src="files/items/53.png"></file>
+    <file src="files/items/54.png"></file>
+    <file src="files/items/55.png"></file>
+    <file src="files/items/56.png"></file>
+    <file src="files/items/57.png"></file>
+    <file src="files/items/58.png"></file>
+    <file src="files/items/59.png"></file>
+    <file src="files/items/60.png"></file>
+    <file src="files/items/61.png"></file>
+    <file src="files/items/62.png"></file>
+    <file src="files/items/63.png"></file>
+    <file src="files/items/64.png"></file>
+    <file src="files/items/65.png"></file>
+    <file src="files/items/66.png"></file>
+    <file src="files/items/67.png"></file>
+    <file src="files/items/68.png"></file>
+    <file src="files/items/69.png"></file>
+    <file src="files/items/70.png"></file>
+    <file src="files/items/71.png"></file>
+    <file src="files/items/72.png"></file>
+    <file src="files/items/73.png"></file>
+    <file src="files/items/74.png"></file>
+    <file src="files/items/75.png"></file>
+    <file src="files/items/76.png"></file>
+    <file src="files/items/77.png"></file>
+    <file src="files/items/78.png"></file>
+    <file src="files/items/79.png"></file>
+    <file src="files/items/80.png"></file>
+    <file src="files/items/81.png"></file>
+    <file src="files/items/82.png"></file>
+    <file src="files/items/83.png"></file>
+    <file src="files/items/83_2.png"></file>
+    <file src="files/items/84.png"></file>
+    <file src="files/items/85.png"></file>
+    <file src="files/items/86.png"></file>
+    <file src="files/items/87.png"></file>
+    <file src="files/items/88.png"></file>
+    <file src="files/items/89.png"></file>
+    <file src="files/items/90.png"></file>
+    <file src="files/items/91.png"></file>
+    <file src="files/items/92.png"></file>
+    <file src="files/items/93.png"></file>
+    <file src="files/items/94.png"></file>
+    <file src="files/items/95.png"></file>
+    <file src="files/items/96.png"></file>
+    <file src="files/items/97.png"></file>
+    <file src="files/items/98.png"></file>
+    <file src="files/items/99.png"></file>
+    <file src="files/items/100.png"></file>
+    <file src="files/items/101.png"></file>
+    <file src="files/items/102.png"></file>
+    <file src="files/items/103.png"></file>
+    <file src="files/items/104.png"></file>
+    <file src="files/items/105.png"></file>
+    <file src="files/items/106.png"></file>
+    <file src="files/items/107.png"></file>
+    <file src="files/items/108.png"></file>
+    <file src="files/items/109.png"></file>
+    <file src="files/items/110.png"></file>
+    <file src="files/items/111.png"></file>
+    <file src="files/items/112.png"></file>
+    <file src="files/items/113.png"></file>
+    <file src="files/items/114.png"></file>
+    <file src="files/items/115.png"></file>
+    <file src="files/items/117.png"></file>
+    <file src="files/items/118.png"></file>
+    <file src="files/items/119.png"></file>
+    <file src="files/items/120.png"></file>
+    <file src="files/items/121.png"></file>
+    <file src="files/items/122.png"></file>
+    <file src="files/items/123.png"></file>
+    <file src="files/items/125.png"></file>
+    <file src="files/items/126.png"></file>
+    <file src="files/items/127.png"></file>
+    <file src="files/items/128.png"></file>
+    <file src="files/items/129.png"></file>
+    <file src="files/items/130.png"></file>
+    <file src="files/items/131.png"></file>
+    <file src="files/items/132.png"></file>
+    <file src="files/items/133.png"></file>
+    <file src="files/items/134.png"></file>
+    <file src="files/items/135.png"></file>
+    <file src="files/items/136.png"></file>
+    <file src="files/items/137.png"></file>
+    <file src="files/items/138.png"></file>
+    <file src="files/items/139.png"></file>
+    <file src="files/items/141.png"></file>
+    <file src="files/items/142.png"></file>
+    <file src="files/items/143.png"></file>
+    <file src="files/items/146.png"></file>
+    <file src="files/items/147.png"></file>
+    <file src="files/items/148.png"></file>
+    <file src="files/items/149.png"></file>
+    <file src="files/items/150.png"></file>
+    <file src="files/items/152.png"></file>
+    <file src="files/items/151.png"></file>
+    <file src="files/items/153.png"></file>
+    <file src="files/items/154.png"></file>
+    <file src="files/items/155.png"></file>
+    <file src="files/items/156.png"></file>
+    <file src="files/items/157.png"></file>
+    <file src="files/items/158.png"></file>
+    <file src="files/items/159.png"></file>
+    <file src="files/items/160.png"></file>
+    <file src="files/items/161.png"></file>
+    <file src="files/items/162.png"></file>
+    <file src="files/items/163.png"></file>
+    <file src="files/items/164.png"></file>
+    <file src="files/items/165.png"></file>
+    <file src="files/items/166.png"></file>
+    <file src="files/items/167.png"></file>
+    <file src="files/items/168.png"></file>
+    <file src="files/items/169.png"></file>
+    <file src="files/items/170.png"></file>
+    <file src="files/items/171.png"></file>
+    <file src="files/items/172.png"></file>
+    <file src="files/items/173.png"></file>
+    <file src="files/items/174.png"></file>
+    <file src="files/items/175.png"></file>
+    <file src="files/items/176.png"></file>
+    <file src="files/items/177.png"></file>
+    <file src="files/items/178.png"></file>
+    <file src="files/items/179.png"></file>
+    <file src="files/items/180.png"></file>
+    <file src="files/items/181.png"></file>
+    <file src="files/items/182.png"></file>
+    <file src="files/items/183.png"></file>
+    <file src="files/items/184.png"></file>
+    <file src="files/items/185.png"></file>
+    <file src="files/items/186.png"></file>
+    <file src="files/items/187.png"></file>
+    <file src="files/items/188.png"></file>
+    <file src="files/items/189.png"></file>
+    <file src="files/items/190.png"></file>
+    <file src="files/items/191.png"></file>
+    <file src="files/items/192.png"></file>
+    <file src="files/items/193.png"></file>
+    <file src="files/items/194.png"></file>
+    <file src="files/items/195.png"></file>
+    <file src="files/items/196.png"></file>
+    <file src="files/items/197.png"></file>
+    <file src="files/items/198.png"></file>
+    <file src="files/items/199.png"></file>
+    <file src="files/items/199_2.png"></file>
+    <file src="files/items/200.png"></file>
+    <file src="files/items/201.png"></file>
+    <file src="files/items/202.png"></file>
+    <file src="files/items/203.png"></file>
+    <file src="files/items/204.png"></file>
+    <file src="files/items/205.png"></file>
+    <file src="files/items/206.png"></file>
+    <file src="files/items/207.png"></file>
+    <file src="files/items/208.png"></file>
+    <file src="files/items/209.png"></file>
+    <file src="files/items/209_1.png"></file>
+    <file src="files/items/209_2.png"></file>
+    <file src="files/items/209_3.png"></file>
+    <file src="files/items/209_4.png"></file>
+    <file src="files/items/210.png"></file>
+    <file src="files/items/211.png"></file>
+    <file src="files/items/212.png"></file>
+    <file src="files/items/213.png"></file>
+    <file src="files/items/214.png"></file>
+    <file src="files/items/215.png"></file>
+    <file src="files/items/216.png"></file>
+    <file src="files/items/217.png"></file>
+    <file src="files/items/218.png"></file>
+    <file src="files/items/219.png"></file>
+    <file src="files/items/220.png"></file>
+    <file src="files/items/221.png"></file>
+    <file src="files/items/222.png"></file>
+    <file src="files/items/223.png"></file>
+    <file src="files/items/225.png"></file>
+    <file src="files/items/225_2.png"></file>
+    <file src="files/items/225_3.png"></file>
+    <file src="files/items/225_4.png"></file>
+    <file src="files/items/225_5.png"></file>
+    <file src="files/items/225_6.png"></file>
+    <file src="files/items/225_7.png"></file>
+    <file src="files/items/226.png"></file>
+    <file src="files/items/227.png"></file>
+    <file src="files/items/228.png"></file>
+    <file src="files/items/229.png"></file>
+    <file src="files/items/230.png"></file>
+    <file src="files/items/231.png"></file>
+    <file src="files/items/232.png"></file>
+    <file src="files/items/233.png"></file>
+    <file src="files/items/234.png"></file>
+    <file src="files/items/235.png"></file>
+    <file src="files/items/236.png"></file>
+    <file src="files/items/237.png"></file>
+    <file src="files/items/238.png"></file>
+    <file src="files/items/239.png"></file>
+    <file src="files/items/240.png"></file>
+    <file src="files/items/241.png"></file>
+    <file src="files/items/242.png"></file>
+    <file src="files/items/243.png"></file>
+    <file src="files/items/244.png"></file>
+    <file src="files/items/245.png"></file>
+    <file src="files/items/246.png"></file>
+    <file src="files/items/247.png"></file>
+    <file src="files/models/polShield.txd"></file>
+    <file src="files/models/polShield.dff"></file>
+    <file src="files/models/lv_ammo.txd"></file>
+    <file src="files/models/level_ammobox.dff"></file>
+    <export function="setPhoneActive" type="client"></export>
+    <export function="getAllItemWeight" type="client"></export>
+    <export function="setItemState" type="client"></export>
+    <export function="openVehicleInventory" type="client"></export>
+    <export function="bindActionbarSlots" type="client"></export>
+    <export function="getItemTooltip" type="shared"></export>
+    <export function="getItemName" type="shared"></export>
+    <export function="getItemValue" type="shared"></export>
+    <export function="getItemImage" type="shared"></export>
+    <export function="getItemImageTexture" type="shared"></export>
+    <export function="getCache" type="shared"></export>
+    <export function="getItemWeight" type="shared"></export>
+    <export function="getTypeElement" type="shared"></export>
+    <export function="getItemStackable" type="shared"></export>
+    <export function="giveItem" type="server"></export>
+    <export function="hasItem" type="client"></export>
+    <export function="hasItem" type="server"></export>
+    <export function="takeAllItem" type="server"></export>
+    <export function="takeItem" type="client"></export>
+    <export function="takeItem" type="server"></export>
+    <export function="getFreeSlot" type="server"></export>
+    <export function="getElementItemsWeight" type="server"></export>
+    <export function="setCardMoney" type="server"></export>
+    <export function="takeDutyItems" type="server"></export>
+    <export function="setActiveSlot" type="client"></export>
+    <export function="giveCardMoneyByCardnumber" type="client"></export>
+    <export function="friskPage" type="client"></export>
+    <export function="loadItems" type="server"></export>
+    <export function="findCard" type="server"></export>
+    <export function="transferCardMoney" type="server"></export>
+    <export function="setCardPinCode" type="server"></export>
+    <export function="findPlayerCardsByDbid" type="server"></export>
+    <export function="syncItems" type="server"></export>
+    <export function="checkPlayerInventory" type="server"></export>
+    <export function="createLicense" type="server"></export>
+    <export function="loadVehicleInventory" type="server"></export>
+    <export function="giveItem" type="client"></export>
+    <export function="openFrisk" type="client"></export>
+    <export function="friskPlayer" type="client"></export>
+    <export function="ticketSignCompleted" type="client"></export>
+    <export function="createSafeFurniture" type="server"></export>
+    <export function="deleteAllExisitingItemWithValue" type="server"></export>
+</meta>

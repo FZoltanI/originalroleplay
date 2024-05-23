@@ -1,0 +1,1 @@
+faction_types = {"Rendvédelem", "Egészségügy", "Legális szervezet", "Banda", "Maffia"}

@@ -1,0 +1,8 @@
+<meta>
+<script src="antiHook.lua" type="shared" cache="false"/>
+
+	<script src="server.lua" type="server"/>
+	
+	<export function="getDBConnection" type="server"/>
+	<export function="getLogsDBConnection" type="server"/>
+</meta>

@@ -1,0 +1,5 @@
+<meta>
+	 <map src="dillmore_gas_station_map.map" dimension="0"></map>
+	     <script src="mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" validate="false"></script>
+</meta>

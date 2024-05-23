@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OriginalRoleplay - Speedo V2</title>
+
+        <link rel="stylesheet" href="speedov2.css">
+
+        <script src="jquery.min.js"></script>
+        <script src="jquery-circle-progress-1.2.2/dist/circle-progress.js"></script>
+    </head>
+    <body style="max-width: 240px; text-align: right;">
+        <span class="data-div" id = "vehName" style="white-space: nowrap; text-align:right;">null</span>
+
+
+        <div class="speedo">
+            <div class="bg"></div>
+            <div class="lines">
+              <span class="lowRPM"><span class="text">0</span></span>
+              <span class="lowRPM"><span class="text">1</span></span>
+              <span class="lowRPM"><span class="text">2</span></span>
+              <span class="lowRPM"><span class="text">3</span></span>
+              <span class="lowRPM"><span class="text">4</span></span>
+              <span class="lowRPM"><span class="text">5</span></span>
+              <span class="highRPM"><span class="text">6</span></span>
+              <span class="highRPM"><span class="text">7</span></span>
+              <span class="highRPM"><span class="text">8</span></span>
+            </div>
+            <div class="rot" id="rpm">
+              <div class="indicator">
+              </div>
+            </div>
+            <div class="center">
+              <div class="inner">
+                <span class="small feat" id="gear" style="font-family: 'bold';">0</span>
+                <span class="small" id="km" style="font-style: 'ultralight'; font-weight: 300; font-size: 0.35em; opacity: .45;">0</span>
+                <span><span id="speed" style="font-weight: 900; font-style: italic; margin: 0;">0</span><span style="    font-family: ultralight;
+                 font-weight: 300; font-style: italic; font-size: 15px; margin: 0;">km/h</span></span>
+                
+                <div style="position: relative; top: -10px;">
+                    <img src="files/icons/left.png" class="miniIcon" id = "indexL" alt="" style="opacity: 0;">
+
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="rpm-circle" style="position: absolute; top: 79px; left: 38px; opacity: 1;" data-value="0" data-size="180" data-thickness="10" data-reverse="false"></div>
+        <div class="rpm-circle" style="position: absolute; top: 79px; left: 38px; opacity: 0.2;" data-value="0" data-size="180" data-thickness="20" data-reverse="false"></div>
+
+    </body>
+
+    <script>
+        function setSpeed(kph, gear, rpm, km) {
+        // rough guess of gear
+
+          var speedEl = document.getElementById("speed");
+          speedEl.textContent = Math.round(kph);
+
+          var gearEl = document.getElementById("gear");
+          gearEl.textContent = gear;
+
+          var kmtext = document.getElementById("km");
+          kmtext.textContent = km + " km";
+
+          var base = 90 - 44.6;
+          var arc = 33.62;
+          var rpmEl = document.querySelector(".rot");
+          //rpmEl.style.transform = "rotate(" + (rpm * arc + base) + "deg)";
+
+          var maxRot = 314.35999999999996;
+          var minRot = 45.4;
+
+          console.log((rpm * arc + base))
+
+          console.log(((rpm * arc + base) / maxRot))
+          
+          $('.rpm-circle').circleProgress({
+            emptyFill: "rgba(0, 0, 0, 0)",
+            startAngle: -Math.PI * 1.29 + 0.12,
+            value: 0.75 * Math.max(0, ((rpm * arc + base) - (5.5 * (8 - rpm))) / maxRot),
+            animation: false,
+            fill: {gradient: ['#eb5454', '#f03c58']}, /* #ff5f43*/
+        });}
+        setSpeed(100, 1, 5);
+
+        function setCarName(carName, tempomat) {
+          if (tempomat > 0) {
+            document.getElementById("vehName").innerHTML = carName + " <span class = 'littletext'>(" + tempomat + " km/h)</span>" ;
+          } else {
+            document.getElementById("vehName").innerHTML = carName;
+          }
+        }
+
+
+
+    </script>
+</html>

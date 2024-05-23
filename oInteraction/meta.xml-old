@@ -1,0 +1,37 @@
+<meta>
+    <oop>true</oop>
+    <script src="global.lua" type="shared" cache="false"></script>
+    <script src="client.lua" type="client" cache="false"></script>
+    <script src="usedButton.lua" type="client" cache="false"></script>
+    <script src="SourceS.lua" type="server" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="files/girth.png"></file>
+    <file src="files/bag.png"></file>
+    <file src="files/csomagtarto.png"></file>
+    <file src="files/close.png"></file>
+    <file src="files/motozas.png"></file>
+    <file src="files/cuff.png"></file>
+    <file src="files/grab.png"></file>
+    <file src="files/felsegit.png"></file>
+    <file src="files/rbs.png"></file>
+    <file src="files/wire.png"></file>
+    <file src="files/up.png"></file>
+    <file src="files/leather.png"></file>
+    <file src="files/bear.png"></file>
+    <file src="files/marihuana.png"></file>
+    <file src="files/cocaine.png"></file>
+    <file src="files/watering.png"></file>
+    <file src="files/collect.png"></file>
+    <file src="files/frisk.png"></file>
+    <file src="files/tesla.png"></file>
+    <file src="files/hose.png"></file>
+    <file src="files/strecher.png"></file>
+    <file src="files/dolly.png"></file>
+    <file src="files/probe.png"></file>
+    <file src="files/barrel.png"></file>
+    <file src="files/speedcam.png"></file>
+    <file src="files/dogfood.png"></file>
+    <file src="files/dogdrink.png"></file>
+    <file src="files/sounds/search.mp3"></file>
+    
+</meta>

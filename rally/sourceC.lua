@@ -1,0 +1,2 @@
+local cache = {}
+local scoreboard = {}

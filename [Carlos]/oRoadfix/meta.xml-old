@@ -1,0 +1,30 @@
+<meta>
+    <oop>true</oop>
+    <script src="replace.lua" type="client" cache="false"></script>
+    <script src="mapEditorScriptingExtension_s.lua" type="server" cache="false"></script>
+    <script src="mapEditorScriptingExtension_c.lua" type="client" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="6118.dff"></file>
+    <file src="6118.col"></file>
+    <file src="6116.dff"></file>
+    <file src="6116.col"></file>
+    <file src="6309.dff"></file>
+    <file src="6309.col"></file>
+    <file src="6310.dff"></file>
+    <file src="6310.col"></file>
+    <file src="6127.dff"></file>
+    <file src="6127.col"></file>
+    <file src="6122.dff"></file>
+    <file src="6122.col"></file>
+    <file src="13752.dff"></file>
+    <file src="13752.col"></file>
+    <file src="5124.dff"></file>
+    <file src="5124.col"></file>
+    <file src="4846.dff"></file>
+    <file src="4846.col"></file>
+    <file src="4831.dff"></file>
+    <file src="4831.col"></file>
+    <file src="5036.dff"></file>
+    <file src="5036.col"></file>
+    
+</meta>

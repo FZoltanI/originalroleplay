@@ -1,0 +1,14 @@
+<meta>
+	<info author="BeaTzZ,Yakuza" type="script" description="Ambient Sounds / Weather Effects" version="1.2"/>
+	<script src="ambience.lua" type="client" />
+	<script src="rain.lua" />
+	<file src="sounds/thunder.mp3" download="false"/>
+	<file src="sounds/lightning.wav" download="false" />
+	<file src="sounds/thunder1.wav" download="false"/>
+	<file src="sounds/thunder2.wav" download="false"/>
+
+     <aclrequest>
+	 <right name="function.startResource" access="true" />
+	 <right name="function.stopResource" access="true" />
+     </aclrequest>
+</meta>

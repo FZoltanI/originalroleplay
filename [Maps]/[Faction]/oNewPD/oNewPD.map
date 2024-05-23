@@ -1,0 +1,18 @@
+<map edf:definitions="editor_main">
+
+    <removeWorldObject id="removeWorldObject (cuntEground41) (1)" radius="201.78239" interior="0" model="13214" lodModel="13231" posX="871.25781" posY="-411.4375" posZ="38.10156" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+
+    <removeWorldObject id="removeWorldObject (Gen_doorEXT15) (1)" radius="3.458308" interior="0" model="1536" lodModel="0" posX="1555.8906" posY="-1674.1094" posZ="15.17969" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+   
+    <removeWorldObject id="removeWorldObject (carimp_LAn) (1)" radius="54.703728" interior="0" model="4032" lodModel="4228" posX="1568.2891" posY="-1677.7812" posZ="10.82031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (carimp_LAn) (1)" radius="54.703728" interior="0" model="4228" lodModel="0" posX="1568.2891" posY="-1677.7812" posZ="10.82031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <removeWorldObject id="removeWorldObject (carimp2_LAn) (2)" radius="47.280518" interior="0" model="4232" lodModel="0" posX="1568.2891" posY="-1677.7812" posZ="10.82031" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+   
+    <removeWorldObject id="removeWorldObject (PoliceSt02_LAn) (1)" radius="59.037895" interior="0" model="3976" lodModel="4064" posX="1571.6016" posY="-1675.75" posZ="35.67969" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    
+
+    <object id="object (PoliceSt02_LAn) (1)" breakable="true" interior="0" collisions="true" alpha="255" model="3976" doublesided="false" scale="1" dimension="0" posX="1571.5996" posY="-1675.7695" posZ="35.6" rotX="0" rotY="0" rotZ="0"></object>
+
+    <object id="object (des_rockfl1_01) (1)" breakable="false" interior="0" collisions="true" alpha="255" model="16134" doublesided="true" scale="1" dimension="0" posX="1565.2002" posY="-1678.5996" posZ="15.2" rotX="0" rotY="0" rotZ="90"></object>
+
+</map>

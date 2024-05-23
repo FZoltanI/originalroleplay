@@ -1,0 +1,11 @@
+<meta>
+    <oop>true</oop>
+    <script src="client.lua" type="client" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="helmets/blue.dff"></file>
+    <file src="helmets/green.dff"></file>
+    <file src="helmets/orange.dff"></file>
+    <file src="helmets/yellow.dff"></file>
+    <file src="helmets/white.dff"></file>
+    <file src="helmets/texture.txd"></file>
+</meta>

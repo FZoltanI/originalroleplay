@@ -1,0 +1,15 @@
+<map edf:definitions="editor_main">
+    <object id="object (vgnorthcoast06) (1)" breakable="true" interior="0" alpha="255" model="7045" doublesided="false" scale="1" dimension="0" posX="1540.3" posY="-1726.7" posZ="12.5" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (vgnorthcoast06) (2)" breakable="true" interior="0" alpha="255" model="7045" doublesided="false" scale="1" dimension="0" posX="1388.8" posY="-1726.5" posZ="12.5" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (vgnorthcoast06) (3)" breakable="true" interior="0" alpha="255" model="7045" doublesided="false" scale="1" dimension="0" posX="1933.9" posY="-1030.8" posZ="32.2" rotX="0" rotY="0" rotZ="354.5"></object>
+    <object id="object (vgnorthcoast06b) (3)" breakable="true" interior="0" alpha="255" model="7252" doublesided="false" scale="1" dimension="0" posX="602.09998" posY="-1205.1" posZ="17.4" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgnorthcoast06b) (4)" breakable="true" interior="0" alpha="255" model="7252" doublesided="false" scale="1" dimension="0" posX="640.29999" posY="-1189.6" posZ="17.4" rotX="0" rotY="0" rotZ="258"></object>
+    <object id="object (vgnorthcoast06b) (5)" breakable="true" interior="0" alpha="255" model="7252" doublesided="false" scale="1" dimension="0" posX="617.90002" posY="-1385.2" posZ="12.7" rotX="0" rotY="0" rotZ="316"></object>
+    <object id="object (vgnorthcoast06) (4)" breakable="true" interior="0" alpha="255" model="7045" doublesided="false" scale="1" dimension="0" posX="1324.3" posY="-1411.5" posZ="12.5" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgnorthcoast06) (5)" breakable="true" interior="0" alpha="255" model="7045" doublesided="false" scale="1" dimension="0" posX="1363.2" posY="-1419.8" posZ="12.5" rotX="0" rotY="0" rotZ="87.25"></object>
+    <object id="object (vgnorthcoast06) (6)" breakable="true" interior="0" alpha="255" model="7045" doublesided="false" scale="1" dimension="0" posX="1336.9" posY="-1381.6" posZ="12.6" rotX="0" rotY="0" rotZ="270.248"></object>
+    <object id="object (vgnorthcoast06b) (7)" breakable="true" interior="0" alpha="255" model="7252" doublesided="false" scale="1" dimension="0" posX="1831.3" posY="-1622" posZ="12.5" rotX="0" rotY="0" rotZ="126"></object>
+    <object id="object (vgnorthcoast06b) (9)" breakable="true" interior="0" alpha="255" model="7252" doublesided="false" scale="1" dimension="0" posX="1952.1" posY="-1922.8" posZ="12.6" rotX="0" rotY="0" rotZ="310"></object>
+    <object id="object (vgnorthcoast06) (11)" breakable="true" interior="0" alpha="255" model="7045" doublesided="false" scale="1" dimension="0" posX="2102.1001" posY="-1758.1" posZ="12.6" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (vgnorthcoast06) (12)" breakable="true" interior="0" alpha="255" model="7045" doublesided="false" scale="1" dimension="0" posX="2083.5" posY="-1763" posZ="12.6" rotX="0" rotY="0" rotZ="254"></object>
+</map>

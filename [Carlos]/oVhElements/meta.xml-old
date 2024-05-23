@@ -1,0 +1,11 @@
+<meta>
+    <oop>true</oop>
+    <script src="client.lua" type="client" cache="true"></script>
+    <script src="server.lua" type="server" cache="true"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="files/elevator.col"></file>
+    <file src="files/elevator.dff"></file>
+    <file src="files/elevator.txd"></file>
+    <file src="files/music.mp3"></file>
+    <file src="files/lift.wav"></file>
+</meta>

@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <vehicle id="This ELEMENT. DO NOT REMOVE, DO NOT COPY AND DO NOT USE" paintjob="3" interior="0" alpha="255" model="569" plate="UQND Z2X" dimension="0" posX="0" posY="0" posZ="0" rotX="0" rotY="0" rotZ="0" color="0,0,0,0,0,0,0,0,0,0,0,0"></vehicle>
+    <removeWorldObject id="This ELEMENT. DO NOT REMOVE, DO NOT COPY AND DO NOT USE" radius="178.77229" interior="0" model="13050" lodModel="13414" posX="50.17969" posY="-43.28125" posZ="0.98438" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="This ELEMENT. DO NOT REMOVE, DO NOT COPY AND DO NOT USE" breakable="true" interior="0" alpha="255" model="4247" doublesided="true" scale="1" dimension="0" posX="1.1" posY="3.5" posZ="-1.06" rotX="0" rotY="0" rotZ="0"></object>
+</map>

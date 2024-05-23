@@ -1,0 +1,5 @@
+A scriptet a következő formában nevezd el, hogy automatikusan elinduljon:
+oFKSkins_fkneve
+
+A metába írd be a fileneveket (az összes skint a skins mappába tedd!)
+A loader.lua skins táblájaba írd be a file nevét és a model id-t!

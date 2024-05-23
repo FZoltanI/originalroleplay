@@ -1,0 +1,17 @@
+<meta>
+    <oop>true</oop>
+    <script src="c_main.lua" type="client" cache="false"></script>
+    <script src="c_switch.lua" type="client" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="fx/img_refract_MRT_DB.fx"></file>
+    <file src="fx/img_refract_NoMRT_DB.fx"></file>
+    <file src="fx/img_refract_MRT_NoDB.fx"></file>
+    <file src="fx/img_refract_NoMRT_NoDB.fx"></file>
+    <file src="fx/tex_water_MRT_DB.fx"></file>
+    <file src="fx/tex_water_NoMRT_DB.fx"></file>
+    <file src="fx/tex_water_MRT_NoDB.fx"></file>
+    <file src="fx/tex_water_NoMRT_NoDB.fx"></file>
+    <file src="images/cube_env256.dds"></file>
+    <file src="images/waterClear_NRM.dds"></file>
+    <export function="switchShader" type="client"></export>
+</meta>
