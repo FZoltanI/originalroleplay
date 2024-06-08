@@ -14,7 +14,7 @@ Az elmúlt időszakban különböző helyeken elkezdett terjedni az **OriginalRo
 Böngéssze, használja mindenki a saját kedve szerint a modot. 
 
 > [!CAUTION]
-> **Ne dőljetek be átveréseknek, ne fizessetek a modért, ugyanis ez az eredeti mod, ami már publikusan és ingyen elérhető mindenkinek!**
+> **Ne dőljetek be átveréseknek, ne fizessetek a modért, ugyanis ez az eredeti mod, ami már publikusan és ingyenesen elérhető mindenkinek!**
 
 ==========================================
 
