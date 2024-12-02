@@ -16,6 +16,13 @@ Böngéssze, használja mindenki a saját kedve szerint a modot.
 > [!CAUTION]
 > **Ne dőljetek be átveréseknek, ne fizessetek a modért, ugyanis ez az eredeti mod, ami már publikusan és ingyenesen elérhető mindenkinek!**
 
+
+**FRISSÍTÉS (2024. 12. 02.):**
+Mostanában elterjed egy új scam miszerint bizonyos emberek az eredeti csapat nevét és identitását felhasználva hírdetik az eredeti OriginalRoleplay újranyitását... 
+> [!CAUTION]
+> **Az OriginalRoleplay hivatalos Multi Theft Auto szervere 2023 februárjában bezárt és SOHA TÖBBET NEM FOG ÚJRA MEGNYITNI! - Az eredeti csapat NEM FOGLALKOZIK MTA-val ÉS A JÖVŐBEN SEM FOG!**
+> Amennyiben még is találkoztok ilyenekkel, akkor azokat jelentsétek! (Carlos hivatalos discord felhasználóneve: carloswhite [Carlos.#3756]; A hivatalos OriginalRoleplay discord szerver elérhetősége: https://discord.gg/original-roleplay-gta-rp-652897662307270667 - minden ettől eltérő szerver és fiók átverés!)
+
 ==========================================
 
 EN:
@@ -35,3 +42,11 @@ Feel free to browse and use the mod as you like.
 
 > [!CAUTION]
 > **Don't fall for scams, don't pay for the gamemode, as this is the original gamemode, which is now publicly and freely available to everyone!**
+
+
+**UPDATE (2024. 12. 02.):**
+Recently, a new scam has been spreading where certain individuals use the name and identity of the original team to advertise the reopening of the original OriginalRoleplay.
+
+> [!CAUTION]
+> **The official Multi Theft Auto server of OriginalRoleplay was shut down in February 2023 and WILL NEVER REOPEN! - The original team DOES NOT engage with MTA and WILL NOT do so in the future!**
+> If you come across such claims, please report them! (Carlos' official Discord username: carloswhite [Carlos.#3756]; The official OriginalRoleplay Discord server link: https://discord.gg/original-roleplay-gta-rp-652897662307270667 - any other server or account is a scam!)
