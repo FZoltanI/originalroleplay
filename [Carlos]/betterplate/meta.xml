@@ -1,8 +1,0 @@
-<meta>
-    <min_mta_version client="1.5.0" />
-    
-    <script src="client.lua" type="client" cache="false" />
-    
-    <file src="files/font.ttf" />
-    <file src="files/plate.png" />
-</meta>
