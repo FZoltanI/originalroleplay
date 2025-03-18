@@ -1,7 +1,10 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
-SET time_zone = "+00:00";
+SET time_zone = '+01:00';
 
+DROP DATABASE IF EXISTS orp_main;
+CREATE DATABASE orp_main;
+USE orp_main;
 
 CREATE TABLE `accounts` (
   `id` int(22) NOT NULL,
@@ -21,8 +24,6 @@ CREATE TABLE `accounts` (
   `lastSerialChange` int(11) NOT NULL,
   `lastSerialChangeStatus` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
-
-
 
 CREATE TABLE `actionbaritems` (
   `itemdbid` int(11) NOT NULL,
@@ -291,7 +292,6 @@ CREATE TABLE `logpp` (
   `newpp` int(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-
 CREATE TABLE `lottery` (
   `id` int(11) NOT NULL,
   `num1` int(2) NOT NULL,
@@ -441,7 +441,6 @@ CREATE TABLE `roulettes` (
   `dimension` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-
 CREATE TABLE `serial_change` (
   `username` text NOT NULL,
   `serial` text NOT NULL,
@@ -463,6 +462,10 @@ CREATE TABLE `shops` (
   `deliveryArea` varchar(500) NOT NULL DEFAULT '[[]]'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
+CREATE TABLE `szefek` (
+  `id` int(255) NOT NULL,
+  `pos` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 CREATE TABLE `teslachargers` (
   `id` int(255) NOT NULL,
@@ -558,22 +561,17 @@ ALTER TABLE `adminserials`
 ALTER TABLE `atms`
   ADD PRIMARY KEY (`id`);
 
-
 ALTER TABLE `bank_accounts`
   ADD PRIMARY KEY (`id`);
-
 
 ALTER TABLE `bans`
   ADD PRIMARY KEY (`id`);
 
-
 ALTER TABLE `bans2`
   ADD PRIMARY KEY (`banId`);
 
-
 ALTER TABLE `bins`
   ADD PRIMARY KEY (`id`);
-
 
 ALTER TABLE `blockedserials`
   ADD PRIMARY KEY (`id`);
@@ -582,21 +580,17 @@ ALTER TABLE `blockedserials`
 ALTER TABLE `bugreports`
   ADD PRIMARY KEY (`id`);
 
-
 ALTER TABLE `characters`
   ADD PRIMARY KEY (`id`);
 
-
 ALTER TABLE `craftingtabels`
   ADD PRIMARY KEY (`id`);
-
 
 ALTER TABLE `elevators`
   ADD PRIMARY KEY (`id`);
 
 ALTER TABLE `factions`
   ADD PRIMARY KEY (`id`);
-
 
 ALTER TABLE `fuelstations`
   ADD PRIMARY KEY (`id`);
@@ -688,7 +682,6 @@ ALTER TABLE `verifedplayers`
 
 ALTER TABLE `worlditems`
   ADD PRIMARY KEY (`id`);
-
 
 ALTER TABLE `accounts`
   MODIFY `id` int(22) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6282;
@@ -783,22 +776,17 @@ ALTER TABLE `plants_containers`
 ALTER TABLE `plants_orders`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
-
 ALTER TABLE `pots`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11965;
-
 
 ALTER TABLE `printers`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
-
 ALTER TABLE `roulettes`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=55392;
 
-
 ALTER TABLE `shops`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=252;
-
 
 ALTER TABLE `szefek`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=217;
@@ -806,10 +794,8 @@ ALTER TABLE `szefek`
 ALTER TABLE `teslachargers`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
-
 ALTER TABLE `trafficboards`
   MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=994;
-
 
 ALTER TABLE `usedcarshops`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
